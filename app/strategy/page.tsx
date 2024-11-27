@@ -23,7 +23,7 @@ export default function StrategyPage() {
                 <div className="mt-20 grid lg:grid-cols-3 gap-8">
                     <div className="flex flex-col gap-4 pr-8">
                         <h2 className="font-bold text-xl">Technology strategy </h2>
-                        <p className="font-extralight">Today, tech leaders are struggling to drive transformation while remaining steady in a climate of rapid change. Slalom’s deep knowledge of current technologies and strong relationships with over 700 leading solution providers empower a strategic approach that helps you do both.</p>
+                        <p className="font-extralight">Today, tech leaders are struggling to drive transformation while remaining steady in a climate of rapid change. Slalom s deep knowledge of current technologies and strong relationships with over 700 leading solution providers empower a strategic approach that helps you do both.</p>
                     </div>
                     <div className="flex flex-col gap-4 pr-8">
                         <h2 className="font-bold text-xl">Data strategy </h2>
@@ -31,7 +31,7 @@ export default function StrategyPage() {
                     </div>
                     <div className="flex flex-col gap-4 pr-8">
                         <h2 className="font-bold text-xl">Innovation & emerging technology strategy </h2>
-                        <p className="font-extralight">We help you push the boundaries of what’s possible to create your future. Our hands-on approach to emerging technologies means we don’t just talk about innovation, we encourage you to experience it first-hand and build that creative energy into your business’s DNA. </p>
+                        <p className="font-extralight">We help you push the boundaries of what s possible to create your future. Our hands-on approach to emerging technologies means we don t just talk about innovation, we encourage you to experience it first-hand and build that creative energy into your business s DNA. </p>
                     </div>
                 </div>
             </div>

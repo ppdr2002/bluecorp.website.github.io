@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="flex flex-wrap items-start gap-4 justify-between">
                     <div className="py-5 flex flex-col gap-4 lg:w-[45%] w-full">
                         <h1 className="text-3xl">bluecorp software</h1>                        
-                        <p className="lg:pr-52">Let’s make it happen! Whether it’s an app, website, branding, or SEO, we’re here to bring your ideas to life and help you reach the next level.</p>
+                        <p className="lg:pr-52">Lets make it happen! Whether it s an app, website, branding, or SEO, we are here to bring your ideas to life and help you reach the next level.</p>
                         <button className="px-6 py-2 w-fit bg-blue-700 rounded-full">start a project</button>
                         <Link href={"/#"} className="underline text-sm">Download Presentation</Link>
                     </div>
