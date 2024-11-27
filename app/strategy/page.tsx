@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function StrategyPage() {
     return (
         <div className="px-14 py-8">
@@ -43,13 +45,13 @@ export default function StrategyPage() {
                 </div>
                 <div className="border w-full opacity-30 my-8"></div>
                 <div className="flex items-start justify-between gap-8">
-                    <img src="l2img1.png" alt="img" width={350} className="rounded-xl "/>
+                    <Image src="/l2img1.png" alt="img" width={350} height={100} className="rounded-xl "/>
                     <h1 className="w-1/3 text-3xl font-semibold">AI consulting</h1>
                     <p className="w-1/3 text-lg">Get Anadea’s expert guidance on how AI can benefit your specific business goals. We'll help you identify the right AI solutions and develop a strategic roadmap for implementation. </p>
                 </div>
                 <div className="border w-full opacity-30 my-8"></div>
                 <div className="flex items-start justify-between gap-8">
-                    <img src="l2img2.png" alt="img" width={350} className="rounded-xl "/>
+                    <Image src="/l2img2.png" alt="img" width={350} height={100} className="rounded-xl "/>
                     <h1 className="w-1/3 text-3xl font-semibold">Model training, deployment & integration</h1>
                     <p className="w-1/3 text-lg">We convert your business requirements into tasks, whether it involves pre-trained solutions, fine-tuning them to meet your requirements, or building models from scratch to further integrate them with your systems. </p>
                 </div>
