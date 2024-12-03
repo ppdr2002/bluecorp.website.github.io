@@ -16,29 +16,10 @@ export default function Navbar() {
       {/* Navbar */}
       <nav className="lg:px-14 md:px-6 px-4 md:py-8 py-4 flex items-center justify-between relative">
         {/* Mobile menu button */}
-        <button
-          data-collapse-toggle="navbar-solid-bg"
-          type="button"
-          className="inline-flex items-center justify-center text-sm text-white rounded-lg md:hidden"
-          aria-controls="navbar-solid-bg"
-          aria-expanded={menuOpen}
-          onClick={toggleMenu}
-        >
+        <button data-collapse-toggle="navbar-solid-bg" type="button" className="inline-flex items-center justify-center text-sm text-white rounded-lg lg:hidden" aria-controls="navbar-solid-bg" aria-expanded={menuOpen} onClick={toggleMenu} >
           <span className="sr-only">Open main menu</span>
-          <svg
-            className="w-6 h-6"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
+          <svg className="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
           </svg>
         </button>
 
@@ -49,10 +30,9 @@ export default function Navbar() {
 
         {/* Desktop menu */}
         <div className="flex">
-          <div className={`md:flex hidden items-center gap-4`}>
+          <div className={`lg:flex hidden items-center gap-4`}>
             <div>
-              <div className="group px-4 py-2">
-                Services
+              <div className="group px-4 py-2"> Services
                 <div className="group-hover:flex hidden items-start justify-between absolute my-8 mx-14 left-0 right-0 top-14 bottom-5 z-10 p-6 bg-white text-black h-[570px]">
                   {/* DROPDOWN 1st SECTION */}
                   <div className="flex flex-col justify-between w-[280px] h-full">
@@ -169,10 +149,7 @@ export default function Navbar() {
 
           {/* Contact Us button */}
           <div className="md:ml-10">
-            <Link
-              href="#"
-              className="px-4 py-2 flex items-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white"
-            >
+            <Link href="#" className="px-4 py-2 flex items-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white">
               <h6 className="md:text-base text-sm">Contact Us</h6>
             </Link>
           </div>
@@ -182,116 +159,63 @@ export default function Navbar() {
         <div
           className={`${
             menuOpen ? "block" : "hidden"
-          } absolute top-full left-0 w-full bg-white md:hidden`}
+          } absolute top-full left-0 w-full bg-white lg:hidden`}
         >
           <div className="flex flex-col items-start p-4 space-y-2">
             {/* Services with Dropdown */}
             <div className="w-full">
-              <button
-                onClick={() => setServicesOpen((prev) => !prev)}
-                className="flex items-center justify-between w-full px-4 py-2 text-gray-800 hover:bg-gray-100"
-              >
+              <button onClick={() => setServicesOpen((prev) => !prev)} className="flex items-center justify-between w-full px-4 py-2 text-gray-800 hover:bg-gray-100">
                 Services
-                <svg
-                  className={`w-4 h-4 transition-transform ${
+                <svg className={`w-4 h-4 transition-transform ${
                     servicesOpen ? "rotate-180" : ""
                   }`}
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="2"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M19 9l-7 7-7-7"
-                  />
+                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"/>
                 </svg>
               </button>
               {servicesOpen && (
                 <div className="pl-4 space-y-2">
-                  <Link
-                    href="/strategy"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
+                  <Link href="/strategy" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                     Strategy
                   </Link>
-                  <Link
-                    href="/#"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
+                  <Link href="/#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                     Cloud
                   </Link>
-                  <Link
-                    href="/#"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
+                  <Link href="/#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                     Digital Product Building
                   </Link>
-                  <Link
-                    href="/#"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
+                  <Link href="/#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100" >
                     Artificial Intelligence
                   </Link>
-                  <Link
-                    href="/#"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
+                  <Link href="/#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                     Experience Strategy and Design
                   </Link>
-                  <Link
-                    href="/#"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
+                  <Link href="/#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                     Digital Transformation Services
                   </Link>
-                  <Link
-                    href="/#"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
+                  <Link href="/#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                     Startup Software Development
                   </Link>
-                  <Link
-                    href="/#"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
+                  <Link href="/#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                     SaaS Development
                   </Link>
-                  <Link
-                    href="/#"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
+                  <Link href="/#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                     Supply Chain Management
                   </Link>
-                  <Link
-                    href="/#"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
+                  <Link href="/#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                     Software Development
                   </Link>
                 </div>
               )}
             </div>
             {/* Other Menu Links */}
-            <Link
-              href="#"
-              className="block w-full px-4 py-2 text-gray-800 hover:bg-gray-100"
-            >
+            <Link href="#" className="block w-full px-4 py-2 text-gray-800 hover:bg-gray-100">
               Industries
             </Link>
-            <Link
-              href="#"
-              className="block w-full px-4 py-2 text-gray-800 hover:bg-gray-100"
-            >
+            <Link href="#" className="block w-full px-4 py-2 text-gray-800 hover:bg-gray-100">
               Who we are
             </Link>
-            <Link
-              href="#"
-              className="block w-full px-4 py-2 text-gray-800 hover:bg-gray-100"
-            >
+            <Link href="#" className="block w-full px-4 py-2 text-gray-800 hover:bg-gray-100">
               Careers
             </Link>
           </div>
