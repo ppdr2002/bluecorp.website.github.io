@@ -6,7 +6,7 @@ export default function StrategyPage() {
 
             {/* Layout 1 */}
             {/* SECTION 1 */}
-            <div className="grid md:gap-12 lg:grid-cols-2 grid-cols-1 items-start py-10">
+            <div className="grid md:gap-12 lg:grid-cols-2 grid-cols-1 items-start py-10 gap-4">
                 <div className="flex items-center gap-4">
                     <div className="md:p-6 p-3 bg-blue-400">
                         <h1 className="md:text-4xl text-2xl">St</h1>
