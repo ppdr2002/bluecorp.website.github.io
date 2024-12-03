@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <div>
       {/* Navbar */}
-      <nav className="md:px-14 px-4 md:py-8 py-4 flex items-center justify-between relative">
+      <nav className="lg:px-14 md:px-6 px-4 md:py-8 py-4 flex items-center justify-between relative">
         {/* Mobile menu button */}
         <button
           data-collapse-toggle="navbar-solid-bg"

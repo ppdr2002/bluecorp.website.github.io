@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div>
             {/* FOOTER */}
-            <footer className="md:px-14 px-4 py-8">
+            <footer className="lg:px-14 md:px-6 px-4 py-8">
                 <div className="flex flex-wrap items-start gap-4 justify-between">
                     <div className="py-5 flex flex-col gap-4 lg:w-[45%] w-full">
                         <h1 className="text-3xl">bluecorp software</h1>                        
@@ -59,7 +59,7 @@ export default function Footer() {
                 
             </footer>
 
-            <div className="md:px-14 px-4 py-8">
+            <div className="lg:px-14 md:px-6 px-4 py-8">
                 <div className="border w-full opacity-30 my-8"></div>
 
                 {/* PRIVACY POLICY */}
