@@ -59,7 +59,18 @@ export default function Header() {
           label: "Software Development",
           href: "/services/software-development",
         },
-        
+        {
+          label: "Startup Software Development",
+          href: "/services/startup-software-development",
+        },
+        {
+          label: "SaaS Development",
+          href: "/services/saas-development",
+        },
+        {
+          label: "Supply Chain Management",
+          href: "/services/supply-chain-development",
+        }
       ],
     },
     {
@@ -85,10 +96,10 @@ export default function Header() {
   ];
 
   return (
-    <nav className="bg-transparent">
+    <nav className="bg-white dark:bg-black dark:text-white top-0 z-50">
       <div className="max-w-[1720px] container mx-auto px-2 py-2 flex justify-between items-center md:h-20">
         <div className="flex items-center">
-          <div className="md:hidden flex items-center ml-2 mr-4">
+          <div className="lg:hidden flex items-center ml-2 mr-4">
             <button onClick={toggleMenu}>
               {isOpen ? (
                 <span className='material-symbols-outlined'>close</span>
@@ -101,7 +112,7 @@ export default function Header() {
             <span className="text-3xl font-medium tracking-wider">bluecorp</span>
           </Link>
         </div>
-        <div className="hidden md:flex items-center space-x-8 ml-auto">
+        <div className="hidden lg:flex items-center space-x-8 ml-auto">
           <div className="group px-4 py-2">
             <button className="link">
               Services
@@ -113,7 +124,7 @@ export default function Header() {
                       <h1 className="text-3xl flex flex-wrap gap-2 font-semibold">Made to <p className="text-blue-600">Scale</p></h1>
                       <p className="text-wrap">Our software development services are built to evolve your business idea into a successful growth story</p>
                       <div className="border">
-                        <Image src={"/"} alt="IMAGE" height={100} width={100}/>
+                        <Image src={"/l2img2.png"} alt="IMAGE" height={100} width={300}/>
                       </div>                      
                     </div>
                     {/* Startup Development Section */}
@@ -148,7 +159,7 @@ export default function Header() {
 
                     {/* Digital Product Building Section */}
                     <div className="flex flex-col gap-3">
-                      <Link href="/#" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">Digital Product Building</Link>
+                      <Link href="/services/digital-product-building" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">Digital Product Building</Link>
                       <p className="font-light text-sm px-2 py-1">Product Engineering</p>
                       <p className="font-light text-sm px-2 py-1">Platform Engineering</p>
                       <p className="font-light text-sm px-2 py-1">Data Engineering</p>
@@ -159,7 +170,7 @@ export default function Header() {
                   <div className="flex flex-col gap-5 w-[280px] h-full">
                     {/* Artificial Intelligence Section */}
                     <div className="flex flex-col gap-3">
-                      <Link href="/#" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">
+                      <Link href="/services/artificial-intelligence" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">
                         Artificial Intelligence
                       </Link>
                       <p className="font-light text-sm px-2 py-1">Machine Learning</p>
@@ -171,7 +182,7 @@ export default function Header() {
 
                     {/* Experience Strategy and Design Section */}
                     <div className="flex flex-col gap-3">
-                      <Link href="/#" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">Experience Strategy and Design</Link>
+                      <Link href="/services/experience-strategy-and-design" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">Experience Strategy and Design</Link>
                       <p className="font-light text-sm px-2 py-1">Customer & User Experience</p>
                       <p className="font-light text-sm px-2 py-1">Product Strategy, Design & Innovation</p>
                       <p className="font-light text-sm px-2 py-1">Service Design</p>
@@ -183,7 +194,7 @@ export default function Header() {
                   <div className="flex flex-col gap-5 w-[280px] h-full">
                     {/* Software Development Section */}
                     <div className="flex flex-col gap-3">
-                      <Link href="/#" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">Software Development</Link>
+                      <Link href="/services/software-development" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">Software Development</Link>
                       <p className="font-light text-sm px-2 py-1">UI/UX</p>
                       <p className="font-light text-sm px-2 py-1">Mobile Development</p>
                       <p className="font-light text-sm px-2 py-1">Web Development</p>
@@ -193,7 +204,7 @@ export default function Header() {
 
                     {/* Digital Transformation Services Section */}
                     <div className="flex flex-col gap-3">
-                      <Link href="/#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 font-bold">Digital Transformation Services</Link>
+                      <Link href="/services/digital-transformation-services" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 font-bold">Digital Transformation Services</Link>
                       <p className="font-light text-sm px-2 py-1">Strategy & Journey</p>
                       <p className="font-light text-sm px-2 py-1">Digital Applications</p>
                       <p className="font-light text-sm px-2 py-1">AI Automation</p>
@@ -221,7 +232,7 @@ export default function Header() {
             <span className='material-symbols-outlined'>globe_asia</span>
           </Link>
         </div>
-        <div className="md:hidden flex items-center space-x-4 mr-2">
+        <div className="lg:hidden flex items-center space-x-4 mr-2">
           <span className='material-symbols-outlined'>rocket_launch</span>
           <span className='material-symbols-outlined'>globe_asia</span>
         </div>

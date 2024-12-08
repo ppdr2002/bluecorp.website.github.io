@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '@/components/layout/header';
+import Image from 'next/image';
 
 export default function StrategyPage() {
   return (
@@ -17,9 +18,12 @@ export default function StrategyPage() {
           <div>At Slalom, we work to deeply understand your organization and develop detailed, executable roadmaps—so you know exactly what to do next, where to grow, and how to transform. Beyond helping you establish your vision, we have the technology and delivery capabilities to make sure you get there.</div>
         </div>
       </div>
+
       {/* This div for any background color */}
       <div className='bg-neutral-800'>
-        <div className='max-w-[1720px] m-auto px-2 h-[800px]'>Section #01</div>
+        <div className='max-w-[1720px] m-auto px-2 h-[800px]'>
+          <Image src={"/strategy-img-1.webp"} alt='strategy-img-1.webp' width={100} height={100} className='w-full absolute left-0 h-[800px]'/>
+        </div>
       </div>
       <div className='bg-purple-300'>
         <div className='max-w-[1720px] m-auto px-4 py-16'>

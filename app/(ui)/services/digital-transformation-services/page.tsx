@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 import Header from '@/components/layout/header';
 import Image from 'next/image';
 
-export default function CloudPage() {
-  return (
-    <div>
-      <div className='text-neutral-900'>
+export default function DigitalTransformationServicePage() {
+    return(
+        <div>
+            <div className='text-neutral-900'>
         <Header />
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-2 my-20'>
+      <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-16 my-20'>
         <div className='page-header'>
           <span className='page-icon-header bg-orange-600'>cl</span>
           <span className='page-header-title'>Cloud</span>
@@ -47,6 +47,6 @@ export default function CloudPage() {
       <div>
         <div className='max-w-[1720px] m-auto px-4'>Section #02</div>
       </div>
-    </div>
-  )
+        </div>
+    )
 }
