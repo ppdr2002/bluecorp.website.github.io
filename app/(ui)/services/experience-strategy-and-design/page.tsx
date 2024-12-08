@@ -15,7 +15,7 @@ export default function ExperienceStrategyAndDesignPage() {
         </div>
         <div className=''>
           <div className='page-title'>We put people first, always.</div>
-          <div>Trends and technologies change, but the fundamental drivers of effective experience and design remain the same. It’s all about people. As a consulting and technology firm that built these capabilities organically based on client needs, Slalom gives you an integrated, end-to-end approach to creating experiences people love.</div>
+          <div>Trends and technologies change, but the fundamental drivers of effective experience and design remain the same. It&apos;s all about people. As a consulting and technology firm that built these capabilities organically based on client needs, Slalom gives you an integrated, end-to-end approach to creating experiences people love.</div>
         </div>
       </div>
       {/* This div for any background color */}
@@ -46,11 +46,11 @@ export default function ExperienceStrategyAndDesignPage() {
             </div>
             <div>
               <div className='section-block-title'>Brand strategy</div>
-              <div>A well-defined brand strategy is critical for delivering on your brand’s promise, and it’s most powerful when inspired by your customers. At Slalom, we focus on deeply understanding both your customers and the marketplace to help you shape a winning brand perception.</div>
+              <div>A well-defined brand strategy is critical for delivering on your brand&apos;s promise, and it&apos;s most powerful when inspired by your customers. At Slalom, we focus on deeply understanding both your customers and the marketplace to help you shape a winning brand perception.</div>
             </div>
             <div>
               <div className='section-block-title'>Contact center transformation</div>
-              <div>We offer a mix of deep contact center industry experience, technical know-how, and functional expertise. Our advisors help your team embrace new ways of working, powered by the latest technological solutions, and motivated by doing what’s right for both your customers and employees.</div>
+              <div>We offer a mix of deep contact center industry experience, technical know-how, and functional expertise. Our advisors help your team embrace new ways of working, powered by the latest technological solutions, and motivated by doing what&apos;s right for both your customers and employees.</div>
             </div>
           </div>
         </div>

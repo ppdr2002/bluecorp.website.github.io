@@ -34,7 +34,7 @@ export default function DigitalTransformationServicePage() {
             </div>
             <div>
               <div className='section-block-title'>Optimization</div>
-              <div>By 2026, Gartner predicts that public cloud spending will exceed 45% of all enterprise IT spending. So how can you ensure that you’re spending that money wisely? Slalom’s experts help you eliminate redundancies, make the most of automation, and maximize the return on your cloud investment.</div>
+              <div>By 2026, Gartner predicts that public cloud spending will exceed 45% of all enterprise IT spending. So how can you ensure that you re spending that money wisely? Slalom&apos;s experts help you eliminate redundancies, make the most of automation, and maximize the return on your cloud investment.</div>
             </div>
             <div>
               <div className='section-block-title'>Infrastructure</div>

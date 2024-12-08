@@ -14,8 +14,8 @@ export default function DigitalProductBuildingPage() {
           <span className='page-header-title'>Digital Product Building</span>
         </div>
         <div className=''>
-          <div className='page-title'>Let’s build the product that will move your business forward.</div>
-          <div>When you’re ready to build at the speed your business demands, we’re ready to partner with you end to end. We can help you identify effective digital strategies, accelerate your time to market, and release more intelligent features. Best of all, we upskill your teams as we go—so you can keep growing long after our work is done.</div>
+          <div className='page-title'>Let&apos;s build the product that will move your business forward.</div>
+          <div>When you&apos;re ready to build at the speed your business demands, we&apos;re ready to partner with you end to end. We can help you identify effective digital strategies, accelerate your time to market, and release more intelligent features. Best of all, we upskill your teams as we go—so you can keep growing long after our work is done.</div>
         </div>
       </div>
       {/* This div for any background color */}
@@ -30,11 +30,11 @@ export default function DigitalProductBuildingPage() {
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16'>
             <div>
               <div className='section-block-title'>Product engineering</div>
-              <div>Slalom’s product engineering methodology (PEM) provides flexibility within a defined, repeatable framework, allowing us to sustain value with speed and quality. Whether starting with a blank slate or optimizing a mature product at scale, PEM works for every stage of your journey.</div>
+              <div>Slalom&apos;s product engineering methodology (PEM) provides flexibility within a defined, repeatable framework, allowing us to sustain value with speed and quality. Whether starting with a blank slate or optimizing a mature product at scale, PEM works for every stage of your journey.</div>
             </div>
             <div>
               <div className='section-block-title'>Platform engineering</div>
-              <div>Our experts build purposeful products that allow you to maximize the value of the cloud. We’re focused on seamlessly combining and building the right components for each customer’s situation, bringing increased engineer productivity, better custom-built software, and significant ROI.</div>
+              <div>Our experts build purposeful products that allow you to maximize the value of the cloud. We&apos;re focused on seamlessly combining and building the right components for each customer&apos;s situation, bringing increased engineer productivity, better custom-built software, and significant ROI.</div>
             </div>
             <div>
               <div className='section-block-title'>Data engineering & machine learning</div>

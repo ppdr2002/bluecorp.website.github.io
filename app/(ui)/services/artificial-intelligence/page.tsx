@@ -15,7 +15,7 @@ export default function ArtificialIntelligencePage() {
         </div>
         <div className=''>
           <div className='page-title'>AI dares us to rethink the impossible.</div>
-          <div>Together, we can solve tomorrow’s challenges with AI. We can help you use AI to automate repetitive processes, challenge conventional constraints, and reimagine user experiences in a responsible and ethical way that keeps people doing what only humans can: think creatively and innovate boldly.</div>
+          <div>Together, we can solve tomorrow&apos;s challenges with AI. We can help you use AI to automate repetitive processes, challenge conventional constraints, and reimagine user experiences in a responsible and ethical way that keeps people doing what only humans can: think creatively and innovate boldly.</div>
         </div>
       </div>
       {/* This div for any background color */}
@@ -34,7 +34,7 @@ export default function ArtificialIntelligencePage() {
             </div>
             <div>
               <div className='section-block-title'>Generative AI</div>
-              <div>With generative AI, we’re using artificial intelligence to augment human potential. It’s not pattern recognition—it’s pattern generation. When used responsibly to empower your teams, generative AI can help you analyze vast amounts of data, capitalize on customer feedback, and make predictions about the future. </div>
+              <div>With generative AI, we&apos;re using artificial intelligence to augment human potential. It&apos;s not pattern recognition—it&apos;s pattern generation. When used responsibly to empower your teams, generative AI can help you analyze vast amounts of data, capitalize on customer feedback, and make predictions about the future. </div>
             </div>
             <div>
               <div className='section-block-title'>Intelligent products</div>
