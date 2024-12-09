@@ -6,8 +6,8 @@ export default function contactpage(){
             <Header />
             <div className="flex flex-wrap px-10 py-16 gap-16">
             <div>
-                <h1 className="text-3xl font-bold mb-6">Let's Talk</h1>
-                <p className="mb-12">We'd love to hear from you! Fill out the form and let's connect to bring your ideas to life!</p>
+                <h1 className="text-3xl font-bold mb-6">Let&apos;s Talk</h1>
+                <p className="mb-12">We&apos;d love to hear from you! Fill out the form and let&apos;s connect to bring your ideas to life!</p>
             </div>
             <div>
                 <form>

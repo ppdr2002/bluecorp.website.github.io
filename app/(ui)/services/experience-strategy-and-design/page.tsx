@@ -30,7 +30,7 @@ export default function ExperienceStrategyAndDesignPage() {
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16'>
             <div>
               <div className='section-block-title'>Customer & employee experience</div>
-              <div>To design differentiated experiences, we employ rigorous research methodologies to gain a deep understanding of the people you serve. Because while you can't predict the future in terms of technology, knowing what people need empowers you to make the right decisions over time.</div>
+              <div>To design differentiated experiences, we employ rigorous research methodologies to gain a deep understanding of the people you serve. Because while you can&apos;t predict the future in terms of technology, knowing what people need empowers you to make the right decisions over time.</div>
             </div>
             <div>
               <div className='section-block-title'>Product strategy, design & innovation</div>
