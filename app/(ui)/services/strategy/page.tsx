@@ -8,7 +8,7 @@ export default function StrategyPage() {
       <div className='text-neutral-900'>
         <Header />
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-2 my-20'>
+      <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-10 my-20'>
         <div className='page-header'>
           <span className='page-icon-header bg-purple-300'>St</span>
           <span className='page-header-title'>Strategy</span>
