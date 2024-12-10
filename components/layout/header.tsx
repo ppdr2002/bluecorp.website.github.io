@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import { useRouter } from 'next/navigation'
 
 type NavItem = {
   icon?: string;
@@ -14,6 +15,7 @@ type NavItem = {
 };
 
 export default function Header() {
+  const router = useRouter()
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -96,11 +98,11 @@ export default function Header() {
   ];
 
   return (
-    <nav className="bg-white dark:bg-black dark:text-white top-0 z-50">
-      <div className="max-w-[1720px] container mx-auto px-2 py-2 flex justify-between items-center md:h-20">
+    <nav className="bg-white dark:bg-black dark:text-white sticky top-0 z-50 lg:px-14 md:px-10 px-2">
+      <div className="max-w-[1720px] container mx-auto md:px-2 py-2 flex justify-between items-center md:h-20">
         <div className="flex items-center">
           <div className="lg:hidden flex items-center ml-2 mr-4">
-            <button onClick={toggleMenu}>
+            <button onClick={toggleMenu} className="">
               {isOpen ? (
                 <span className='material-symbols-outlined'>close</span>
               ) : (
@@ -114,10 +116,11 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex items-center space-x-8 ml-auto">
           <div className="group px-4 py-2">
-            <button className="link">
+            <button className="link" type="button" onClick={() => router.push('/services')}>
               Services
             </button>
-            <div className="group-hover:flex hidden items-start justify-between absolute my-8 mx-2 left-0 right-0 top-10 bottom-5 z-10 p-6 bg-white text-black h-[570px] border">
+            <div className="group-hover:flex hidden items-start justify-between absolute my-8 mx-2 left-0 right-0 top-10 bottom-5 z-10 p-6 bg-white text-black h-[570px] border animate-dropdown-appear">
+
               {/* DROPDOWN 1st SECTION */}
               <div className="flex flex-col justify-between w-[280px] h-full">
                     <div className="flex flex-col gap-3 p-2">
@@ -222,7 +225,7 @@ export default function Header() {
           <Link href="/about">
             <span className="link">Who we are</span>
           </Link>
-          <Link href="/contact">
+          <Link href="/careers">
             <span className="link">Careers</span>
           </Link>
           <Link href="/contact">

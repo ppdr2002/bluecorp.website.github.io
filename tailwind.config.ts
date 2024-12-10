@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        'dropdown-appear': 'dropdown-appear 1.2s ease-in-out',
+        'dropdown-disappear': 'dropdown-disappear 2s ease-in-out',
+      },
     },
   },
   plugins: [],

@@ -1,24 +1,30 @@
 import Header from "@/components/layout/header"
+import Image from "next/image";
 
 export default function contactpage(){
     return(
         <div>
             <Header />
-            <div className="flex flex-wrap px-10 py-16 gap-16">
-            <div>
-                <h1 className="text-3xl font-bold mb-6">Let&apos;s Talk</h1>
-                <p className="mb-12">We&apos;d love to hear from you! Fill out the form and let&apos;s connect to bring your ideas to life!</p>
+            <div className="flex flex-wrap md:px-14 px-4 md:py-16 py-6 md:gap-16">
+            <div className="md:w-[45%] w-full">
+                <div className="flex items-end gap-5 mb-4">
+                    <h1 className="text-3xl font-bold text-center">Let&apos;s Talk</h1>
+                    <Image src={"/contact-talk-white.svg"} alt='contact-talk-white' width={40} height={40} className="dark:hidden block" />
+                    <Image src={"/contact-talk-dark.svg"} alt='contact-talk-dark' width={40} height={40} className="hidden dark:block"/>
+                </div>
+                <p className="mb-4">We&apos;d love to hear from you! </p>
+                    <p>Fill out the form and let&apos;s connect to bring your ideas to life!</p>
             </div>
-            <div>
+            <div className="md:w-[50%] w-full">
                 <form>
-                    <div className="grid grid-cols-2 gap-4">
-                        <div>
+                    <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+                        <div  className="col-span-2">
                             <label htmlFor="firstName" className="block text-sm font-medium">
                                 First Name
                             </label>
                             <input type="text" id="firstName" name="firstName" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 text-black" />
                         </div>
-                        <div>
+                        <div  className="col-span-2">
                             <label htmlFor="lastName" className="block text-sm font-medium ">
                                 Last Name
                             </label>
@@ -65,7 +71,7 @@ export default function contactpage(){
                     </div>
 
                     <div className="mt-8">
-                        <button type="submit" className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">
+                        <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                             Send Message →
                         </button>
                     </div>

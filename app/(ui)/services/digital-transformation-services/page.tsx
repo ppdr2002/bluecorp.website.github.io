@@ -8,7 +8,7 @@ export default function DigitalTransformationServicePage() {
             <div className='text-neutral-900'>
         <Header />
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-10 my-20'>
+      <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-14 my-20'>
         <div className='page-header'>
           <span className='page-icon-header bg-red-950'>Di</span>
           <span className='page-header-title'>Digital Transformation Service</span>
@@ -25,7 +25,7 @@ export default function DigitalTransformationServicePage() {
         </div>
       </div>
       <div className='bg-red-950'>
-        <div className='max-w-[1720px] m-auto px-4 py-16'>
+        <div className='max-w-[1720px] m-auto md:px-14 px-4 py-16'>
           <div className='section-header'>Our cloud <i>expertise</i></div>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16'>
             <div>

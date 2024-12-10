@@ -8,7 +8,7 @@ export default function StrategyPage() {
       <div className='text-neutral-900'>
         <Header />
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-10 my-20'>
+      <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-14 my-20'>
         <div className='page-header'>
           <span className='page-icon-header bg-purple-300'>St</span>
           <span className='page-header-title'>Strategy</span>
@@ -22,11 +22,11 @@ export default function StrategyPage() {
       {/* This div for any background color */}
       <div className='bg-neutral-800'>
         <div className='max-w-[1720px] m-auto px-2 h-[800px]'>
-          <Image src={"/strategy-img-1.webp"} alt='strategy-img-1.webp' width={100} height={100} className='w-full absolute left-0 h-[800px]'/>
+          <Image src={"/strategy-img-1.png"} alt='strategy-img-1.webp' width={100} height={100} className='w-full absolute left-0 h-[800px]'/>
         </div>
       </div>
       <div className='bg-purple-300'>
-        <div className='max-w-[1720px] m-auto px-4 py-16'>
+        <div className='max-w-[1720px] m-auto md:px-14 px-4 py-16'>
           <div className='section-header'>Our strategy expertise</div>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16'>
             <div>
