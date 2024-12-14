@@ -13,8 +13,8 @@ export default {
         foreground: "var(--foreground)",
       },
       animation: {
-        'dropdown-appear': 'dropdown-appear 1.2s ease-in-out',
-        'dropdown-disappear': 'dropdown-disappear 2s ease-in-out',
+        'dropdown-appear': 'dropdown-appear 1.3s ease-in-out',
+        'dropdown-disappear': 'dropdown-disappear 3s ease-in-out',
       },
     },
   },
