@@ -17,6 +17,9 @@ type NavItem = {
 export default function Header() {
   const router = useRouter()
   const [isOpen, setIsOpen] = useState(false);
+  const IndustriesDropdown = () => {
+    setIsOpen(!isOpen);
+  };
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -79,6 +82,29 @@ export default function Header() {
       icon: "construction",
       label: "Industries",
       href: "/industries",
+      submenu: true,
+      submenus: [
+        {
+          label: "Supply Chain Management",
+          href: "/industries/supply-chain-management",
+        },
+        {
+          label: "Retail",
+          href: "/industries/retail",
+        },
+        {
+          label: "Internet of Things",
+          href: "/industries/internet-of-things",
+        },
+        {
+          label: "Social",
+          href: "/industries/social",
+        },
+        {
+          label: "Smart Living",
+          href: "/industries/smart-living",
+        },
+      ]
     },
     {
       icon: "co_present",
@@ -99,7 +125,7 @@ export default function Header() {
 
   return (
     <nav className="bg-white dark:bg-black dark:text-white sticky top-0 z-50 lg:px-14 md:px-10 px-2">
-      <div className="max-w-[1720px] container mx-auto md:px-2 py-2 flex justify-between items-center md:h-20">
+      <div className="max-w-full container mx-auto md:px-2 py-2 flex justify-between items-center md:h-20">
         <div className="flex items-center">
           <div className="lg:hidden flex items-center ml-2 mr-4">
             <button onClick={toggleMenu} className="">
@@ -114,12 +140,16 @@ export default function Header() {
             <span className="text-3xl font-medium tracking-wider">bluecorp</span>
           </Link>
         </div>
+        
+        {/* MENU BAR IN DESKTOP MODE */}
         <div className="hidden lg:flex items-center space-x-8 ml-auto">
-          <div className="group px-4 py-2">
+
+          {/* Services Section */}
+          <div className="group">
             <button className="link" type="button" onClick={() => router.push('/services')}>
               Services
             </button>
-            <div className="group-hover:flex hidden items-start justify-between absolute my-8 mx-2 left-0 right-0 top-10 bottom-5 z-10 p-6 bg-white text-black h-[570px] border animate-dropdown-appear">
+            <div className="group-hover:flex hidden items-start justify-between absolute my-8 mx-4 left-0 right-0 top-10 bottom-5 z-10 p-6 bg-white text-black h-[570px] border animate-dropdown-appear">
 
               {/* DROPDOWN 1st SECTION */}
               <div className="flex flex-col justify-between w-[280px] h-full">
@@ -216,29 +246,94 @@ export default function Header() {
                   </div>
             </div>
           </div>
-          <Link href="/industries">
-            <span className="link">Industries</span>
-          </Link>
+
+          {/* Industries Section  */}
+          <div className="group">
+          <button className="link" type="button" onClick={() => router.push('/industries')}>
+            Industries
+          </button>
+          <div className="group-hover:flex justify-between gap-10 hidden items-start absolute my-8 mx-2 left-0 right-0 top-10 z-10 p-6 bg-white text-black h-[410px] border animate-dropdown-appear">
+
+            <div className="flex flex-col justify-between w-[300px] h-full">
+              <div className="flex flex-col gap-5 p-2">
+                <h1 className="text-3xl flex flex-wrap gap-2 font-semibold">Explore <p className="text-blue-600">Industries</p></h1>
+                <p className="text-wrap">We provide tailored solutions across a wide range of industries to drive innovation and growth.</p>
+                <div className="border">
+                  <Image src="/industries-dropdown.png" alt="Industries" height={100} width={300} />
+                </div>
+              </div>
+            </div>
+             
+            <div className="flex flex-col gap-5">
+              <div className="flex flex-col gap-5 w-[280px] h-full">
+                <Link href="/industries/supply-chain-management" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">
+                  Supply Chain Management
+                </Link>
+                <p className="font-light text-sm px-2 py-1">Streamline operations with cutting-edge solutions.</p>
+              </div>
+
+              <div className="flex flex-col gap-5 w-[280px] h-full">
+                <Link href="/industries/retail" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">
+                  Retail
+                </Link>
+                <p className="font-light text-sm px-2 py-1">Enhance customer experiences and drive sales.</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-5">
+              <div className="flex flex-col gap-1 w-[280px] h-full">
+                <Link href="/industries/iot" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">
+                  IoT
+                </Link>
+                <p className="font-light text-sm px-2 py-1">Connect and optimize through smart technology.</p>
+              </div>
+
+              <div className="flex flex-col gap-1 w-[280px] h-full">
+                <Link href="/industries/social" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">
+                  Social
+                </Link>
+                <p className="font-light text-sm px-2 py-1">Empower communities with innovative solutions.</p>
+              </div>
+            </div>
+
+            <div>
+              <div className="flex flex-col gap-1 w-[280px] h-full">
+                <Link href="/industries/smart-living" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">
+                  Smart Living
+                </Link>
+                <p className="font-light text-sm px-2 py-1">Redefine living spaces with advanced technology.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          {/* Portfolio Section */}
           <Link href="/">
             <span className="link">Portfolio</span>
           </Link>
+
+          {/* About Section */}
           <Link href="/about">
             <span className="link">Who we are</span>
           </Link>
+
+          {/* Career Section */}
           <Link href="/careers">
             <span className="link">Careers</span>
           </Link>
+
+          {/* Contact Section */}
           <Link href="/contact">
             <span className="border-2 rounded-full px-6 py-2 hover:scale-105">Let’s launch</span>
           </Link>
           <Link href="/contact">
             <span className='material-symbols-outlined'>globe_asia</span>
           </Link>
-        </div>
         <div className="lg:hidden flex items-center space-x-4 mr-2">
           <span className='material-symbols-outlined'>rocket_launch</span>
           <span className='material-symbols-outlined'>globe_asia</span>
         </div>
+      </div>
       </div>
       <div
         className={`fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300 z-20 ${
