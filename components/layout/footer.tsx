@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Footer() {
   return (
@@ -9,12 +10,12 @@ function Footer() {
           <div>
             <div className='text-2xl font-medium mb-6'>Bluecorp Software</div>
             <div className='flex space-x-4'>
-              <a href="#" aria-label='LinkedIn'>
-                <Image aria-hidden src="./social/linkedin.svg" alt="Bluecorp Software - LinkedIn" width={24} height={24}/>
-              </a>
-              <a href="#" aria-label='X'>
-                <Image src="./social/x.svg" alt="Bluecorp Software - X" width={24} height={24}/>
-              </a>
+              <Link href="#" aria-label='LinkedIn'>
+                <Image aria-hidden src="/social/linkedin.svg" alt="Bluecorp Software - LinkedIn" width={24} height={24}/>
+              </Link>
+              <Link href="#" aria-label='X'>
+                <Image src="/social/x.svg" alt="Bluecorp Software - X" width={24} height={24}/>
+              </Link>
             </div>
           </div>
           <div>

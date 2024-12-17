@@ -1,18 +1,29 @@
 import React from "react";
 import Header from "@/components/layout/header";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function IndustriesPage() {
     return(
         <div>
             <Header />
-            <Image src={"/supply-chain-management-header-img.png"} alt="supply-chain-management-img-1" height={1000} width={2000} className="w-[100%]"/>
+            {/* NAVIGATION LINKS */}
+            <div className="py-5 lg:px-14 px-4 flex items-center gap-2">
+                <Link href={"/"} className="hover:text-blue-600">Home</Link>
+                <div><Image src={"/right-arrow.svg"} alt="right-arrow" width={18} height={18} className="h-5 w-5"/></div>
+                <Link href={"/industries"} className="hover:text-blue-600">Industries</Link>
+                <div><Image src={"/right-arrow.svg"} alt="right-arrow" width={18} height={18} className="h-5 w-5"/></div>
+                <div className="hover:text-blue-600">Supply Chain Management</div>
+            </div>
+            
             {/* Section 1 */}
             <div className="py-10 lg:px-14 px-4">
                 <h1 className="lg:text-7xl text-3xl text-center md:pt-20 pt-6">Supply Chain Management</h1>
                 <p className="text-center text-xl md:py-10 py-6">Stand up to always emerging market challenges with supply chain software development for more resilient, transparent, and<br></br> easier-to-track business operations. We develop custom solutions with attention to every link in the chain<br></br> to address your business needs.</p>
                 <button></button>
             </div>
+            <Image src={"/supply-chain-management-header-img.png"} alt="supply-chain-management-img-1" height={1000} width={2000} className="w-[100%]"/>
+
             {/* Section 2 */}
             <div className="lg:px-14 px-4 bg-blue-800 py-14 text-white text-lg">
                 <h1 className="lg:text-4xl text-2xl md:w-[50%] font-bold">Supply Chain industry<br></br> challenges</h1>
