@@ -7,13 +7,12 @@ export default function IndustriesPage() {
     <div>
       <Header />
       <div>
-       {/* Top Section */}
+        <Image src={"/industries-front-img.png"} alt='industries-front-img' height={1000} width={2000} className='h-[100%] w-[100%] mt-10'/>
+        {/* Top Section */}
         <div>
           <div className='md:px-14 px-4 py-10'>
-            {/* <Image src={''} alt='' width={} height={}/> */}
-            <Image src={"/industries-front-img.jpeg"} alt='industries-front-img' height={1000} width={1000} className='h-[50%] w-[100%]'/>
             <h1 className='text-5xl font-bold pb-10 pt-10'>Industires We Serve</h1>
-            <p className='md:w-[60%] w-full '>Delivering Value to multiple industries, we innovate industry-specific technologies to scale and optimize operations and bottom line.</p>
+            <p className='md:w-[60%] w-full text-lg'>Delivering Value to multiple industries, we innovate industry-specific technologies to scale and optimize operations and bottom line.</p>
           </div>
           {/* Section 1 */}
           <div>

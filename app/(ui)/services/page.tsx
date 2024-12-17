@@ -7,7 +7,7 @@ export default function ServicesPage() {
       <Header />
       {/* This div for any background color or images */}
       <div className="flex items-center bg-blue-600 dark:bg-neutral-900 h-dvh">
-        <div className='relative w-full max-w-[1720px] m-auto px-4 md:px-14 lg:px-12'>
+        <div className='relative w-full max-w-[1720px] m-auto lg:px-12 md:px-14 px-4'>
           <div className='flex items-center justify-center'>
             <div className='mt-12 text-center space-y-8'>
               <div className='headline1 text-white'>Discover, Develop, Deploy</div>

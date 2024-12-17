@@ -282,7 +282,7 @@ export default function Header() {
 
             <div className="flex flex-col gap-5">
               <div className="flex flex-col gap-1 w-[280px] h-full">
-                <Link href="/industries/iot" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">
+                <Link href="/industries/internet-of-things" className="block px-2 py-2 text-gray-800 hover:bg-gray-100 font-bold">
                   IoT
                 </Link>
                 <p className="font-light text-sm px-2 py-1">Connect and optimize through smart technology.</p>
