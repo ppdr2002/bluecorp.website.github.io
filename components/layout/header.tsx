@@ -125,7 +125,7 @@ export default function Header() {
 
   return (
     <nav className="bg-white dark:bg-black dark:text-white sticky top-0 z-50 lg:px-14 md:px-10 px-2">
-      <div className="max-w-full container mx-auto md:px-2 py-2 flex justify-between items-center md:h-20">
+      <div className="max-w-full container mx-auto py-2 flex justify-between items-center md:h-20">
         <div className="flex items-center">
           <div className="lg:hidden flex items-center ml-2 mr-4">
             <button onClick={toggleMenu} className="">

@@ -6,31 +6,28 @@ export default function IndustriesPage() {
     return(
         <div>
             <Header />
-            <Image src={"/supply-chain-management-header-img.png"} alt="supply-chain-management-img-1" height={1000} width={2000} className="w-[100%]"/>
+            <Image src={"/internet-of-things-front-img.png"} alt="internet-of-things-front-img" height={1000} width={2000} className="w-[100%]"/>
             {/* Section 1 */}
             <div className="py-10 lg:px-14 px-4">
-                <h1 className="lg:text-7xl text-3xl text-center md:pt-20 pt-6">Supply Chain Management</h1>
-                <p className="text-center text-xl md:py-10 py-6">Stand up to always emerging market challenges with supply chain software development for more resilient, transparent, and<br></br> easier-to-track business operations. We develop custom solutions with attention to every link in the chain<br></br> to address your business needs.</p>
+                <h1 className="lg:text-7xl text-3xl text-right md:pt-20 pt-6">Internet of Things</h1>
+                <p className="text-right text-xl md:py-10 py-6">Revolutionizing industries through Custom IoT software & Application development services that promote seamless integration and limitless innovation.</p>
                 <button></button>
             </div>
             {/* Section 2 */}
             <div className="lg:px-14 px-4 bg-blue-800 py-14 text-white text-lg">
-                <h1 className="lg:text-4xl text-2xl md:w-[50%] font-bold">Supply Chain industry<br></br> challenges</h1>
+                <h1 className="lg:text-4xl text-2xl md:w-[50%] font-bold">Why Choose Bluecorp as Your IoT<br/> Development Company</h1>
                 <div className="md:flex justify-evenly gap-14">
                     <div className="md:w-[50%] w-[100%]">
-                        <p className="py-10">U.S. retail operations have a supply chain accuracy of only 63%. And only 6% of businesses report the total visibility of their supply chain.</p>
-                        <p className="">Meanwhile, the market expects impeccable operation flow and fast response from businesses, which is impossible if loads of data are handled manually. All this under the conditions of unpredictable consumer spending and complex logistics processes 
-                        barely recovered from COVID-19.</p>
+                        <p className="py-10">With each IoT development project, we, a globally-renowned IoT software development company, keep data governance and security best practices at the top of our minds in order to ensure the seamless functionality of your IoT app.</p>
+                        <p className="">As a trusted IoT application development company, we have proven ourselves as the leading IoT application development company by providing user-centric applications for top brands. Being a premium IoT software development company, we focus on bridging the gap between the real and digital world and providing our clients with the most innovative and usable IoT environment.</p>
                     </div>
                     <div className="md:w-[50%] w-[100%]">
-                    <p className="py-10">Supply chain software developed by professionals can help address these and many other concerns. Build your own SCM software to:</p>
-                    <ul className="">
-                        <li>&#x2022; Minimize transportation expenses</li>
-                        <li>&#x2022; Keep up with the needs of the market</li>
-                        <li>&#x2022; Source dependable, constant transport capacity</li>
-                        <li>&#x2022; Meet the most recent technological demands</li>
-                        <li>&#x2022; Pick up and deliver orders on time</li>
-                    </ul>
+                    <ol>
+                        <li className="py-10">Since connectivity is essential for IoT applications, we, being the top-ranked IoT app development company, utilize the right networking protocols, guaranteeing a trouble-free experience with high-quality connectivity.</li>
+                        <li>
+                        As a leader in IoT app development services, we include your input when working on your custom IoT project and adhere to UI/UX design best practices. Our proficient designers, skilled developers, and IoT solution providers combine their expertise to create highly interactive and user-friendly custom IoT consulting solutions.
+                        </li>
+                    </ol>
                     </div>
                 </div>
             </div>
@@ -40,42 +37,41 @@ export default function IndustriesPage() {
                     <h1 className=" lg:text-4xl text-2xl md:w-[50%] w-[100%] font-bold lg:px-14 px-4">What we do as a supply chain software company</h1>
                     {/* Part 1 */}
                     <div className="lg:px-14 px-4">
-                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
+                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-14 py-10 md:px-16 px-4">
                             <div className="w-[50%]">
-                                <Image src={"/supply-chain-management-settings.svg"} alt="" height={35} width={35}/>
-                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Custom<br></br> development and implementation</h1>
+                                <Image src={"/identifying-the-issue.svg"} alt="" height={40} width={40} className="pt-6"/>
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Identifying the Issue</h1>
                             </div>
                             <div className="md:w-[50%] w-full text-white md:text-lg">
-                                <p className="pt-6">Tell us what kind of software you need, and in collaboration with you, we design and develop a programming solution to address your request. It can be <b>supply chain management software (SCMS), transportation management software (TMS), warehouse management software</b>, and more.</p>
-                                <p className="pt-6">We acknowledge that an SCM software implementation can be a challenge. The software has to cover every branch of the company and coordinate them seamlessly with each other, which takes additional organizational realignment and engineering effort. Systems by Anadea are built with regard to this. We find the smartest architecture solutions to assure the durability and maintainability of your software.</p>
+                                <p className="pt-6">Being one of the top-tiered IoT applications development companies, our first initiative is to identify the issue or need that the application is meant to solve. This entails comprehending the needs, problems, and obstacles that the user has and how IoT custom software development can address them.</p>
+                                <p className="pt-6">As a leading IoT application development company, we prioritize a thorough understanding of your unique challenges. By closely collaborating with you, we delve deep into your specific needs, identifying the root problems that hinder your operations. We meticulously analyze your existing processes, infrastructure, and data to pinpoint areas where IoT solutions can optimize efficiency and drive innovation. This comprehensive assessment allows us to tailor our approach and develop customized IoT solutions that seamlessly integrate with your existing systems, delivering measurable results and a significant return on investment.</p>
                             </div>
                         </div>
                     </div>
                     {/* Part 2 */}
                     <div className="lg:px-14 px-4 ">
-                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
+                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-14 py-10 md:px-16 px-4">
                             <div className="w-[50%]">
-                                <Image src={"/supply-chain-management-technology-consulting.svg"} alt="" height={35} width={35}/>
-                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Technology<br></br> Consulting</h1>
+                                <Image src={"/defining-the-solution.svg"} alt="" height={50} width={50}/>
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Defining the Solution</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg">
-                                <p className="pt-6"> you are in two minds about the quality of your current software or simply looking to bring your business to the next level, opt for a <b>technology consulting service</b> from Bluecorp. We will thoroughly analyze the technological solutions you now employ and the tech stack that powers your company in order to find any possible flaws and then suggest strategies to fix them.
+                                <p className="pt-6">As a key component of our Internet of Things application development services, we focus on defining tailored solutions once a problem or need is identified. This involves selecting the appropriate sensors, devices, functionalities, and platforms required to build effective and innovative IoT applications.
                                 </p>
-                                <p className="pt-10">In case you would like to benefit from custom SCM development upon consulting, such as the addition of new features or certain technological changes, we will offer a project proposal for these services.</p>
+                                <p className="pt-10">Once we've pinpointed the specific problem or opportunity, our team of IoT experts meticulously crafts a tailored solution. This involves a comprehensive analysis of your existing infrastructure and business objectives, followed by a meticulous selection of the most suitable technologies and components.</p>
                             </div>
                         </div>
                     </div>
                     {/* Part 3 */}
                     <div className="lg:px-14 px-4">
-                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
+                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-14 py-10 md:px-16 px-4">
                             <div className="w-[50%]">
-                                <Image src={"/supply-chain-management-settings.svg"} alt="" height={35} width={35}/>
-                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Legacy software<br></br> modernization</h1>
+                                <Image src={"/creating-a-design.svg"} alt="" height={35} width={35}/>
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Creating the Design</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg">
-                                <p>It appears that your existing software may require an upgrade as it is not meeting modern requirements. Industry experts suggest that any software that is over a decade old, given the pace of innovation, is considered legacy. If you are experiencing issues with software support such as unresolved security breaches or unavailability of developers, your software is likely legacy. Similarly, if developers propose temporary fixes due to concerns about impairing other parts of the software, it may be considered legacy.</p>
-                                <p className="pt-6">As software is a critical source of data for businesses, such shortcomings can have a significant impact on operations. A single link in the chain can affect the entire system, making unstable legacy systems a significant risk factor.</p>
-                                <p className="pt-6">If you're facing any of these issues, feel free to contact us, and we'll explore ways to improve your software.</p>
+                                <p>As one of the most exceptional IoT product development companies, we ensure that our design team creates highly intuitive, clickable architectural prototypes that users can navigate. This stage also involves making choices regarding the app's hosting, data storage methods, and interoperability with other hardware.</p>
+                                <p className="pt-6">Our team leverages cutting-edge IoT platforms and development frameworks to build robust and scalable applications. We consider factors like security, scalability, and ease of integration.</p>
                             </div>
                         </div>
                     </div>
@@ -83,96 +79,56 @@ export default function IndustriesPage() {
             </div>
             {/* Section 4 */}
             <div>
-                <Image src={"/supply-chain-management-img-2.svg"} alt="supply-chain-management-img-2" height={100} width={100} className="w-[100%] lg:px-14 px-4"/>
+                <Image src={"/internet-of-things-diagram.png"} alt="supply-chain-management-img-2" height={700} width={400} className="w-[100%] lg:px-14 px-4"/>
             </div>
 
             {/* Section 5 */}
             <div className="lg:px-14 px-4 py-20">
                 <div className="md:w-[50%]">
-                    <h1 className="lg:text-4xl md:text-2xl">Custom Supply Chain<br></br> solutions we deliver </h1>
-                    <p className="py-10 lg:text-lg">Whether you need an all-in-one system to cover every aspect of<br></br> supply chain management or a tool to perform a specific task,<br></br> there is a solution for you.</p>
+                    <h1 className="lg:text-4xl text-2xl">Unleash the Full Potential of IoT with Our Agile Development Approach</h1>
+                    <p className="py-10 lg:text-lg">Over the years, our Internet of Things developers have contributed to scaling up the efficiency and productivity of businesses across different industries. Our IoT software development services have benefited numerous industries with tailored solutions that enhance automation, improve data-driven decision-making, optimize resource management, and drive operational efficiency.</p>
                 </div>
                 <div className="md:grid lg:grid-cols-3 md:grid-cols-2 flex flex-col gap-5">
                     <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/demand-management-software.png"} alt="demand-management-software-img" height={2000} width={800} className="h-[50%] md:w-[100%] rounded-t-xl w-full"/>
+                        <Image src={"/health-care.jpg"} alt="healtj-care-img" height={2000} width={800} className="h-[50%] md:w-[100%] rounded-t-xl w-full"/>
                         <div className="p-8">
-                            <h1 className="text-2xl">Demand Management software</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Demand forecasting</li>
-                                <li>&#x2022; Client analytics</li>
-                                <li>&#x2022; Stock optimization</li>
-                                <li>&#x2022; Planning for sales and operations</li>
-                                <li>&#x2022; Tracking of prices and promotions</li>
-                            </ul>
+                            <h1 className="text-2xl">HealthCare</h1>
+                            <p className="py-4">As a leading healthcare app development company, we build IoT-backed healthcare solutions that improve patient care with remote monitoring systems, allowing patients to connect with caregivers through smart medical devices.</p>
                         </div>
                     </div>
                     <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/warehouse-management-software.jpg"} alt="supply-chain-management-img-3" height={350} width={700} className="h-[50%] w-[100%] rounded-t-xl"/>
+                        <Image src={"/finance-img.jpg"} alt="financce-img" height={350} width={700} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
-                            <h1 className="text-2xl">Warehouse Management software</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Warehouse operations automation</li>
-                                <li>&#x2022; Inventory tracking across warehouses</li>
-                                <li>&#x2022; Tracking using barcodes, serial Nos or RFIDs</li>
-                                <li>&#x2022; Asset administration</li>
-                                <li>&#x2022; Forecasting of future inventories and prices</li>
-                            </ul>
+                            <h1 className="text-2xl">Finance</h1>
+                            <p className="py-4">Our IoT-powered FinTech solutions help organizations automate processes with fraud detection sensors, data analytics platforms, and smart payment systems that reduce instances of breaches and boost customer experience.</p>
                         </div>
                     </div>
                     <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/logistic-management.jpg"} alt="supply-chain-management-img-3" height={700} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
+                        <Image src={"/automotive-img.jpg"} alt="automotive-img" height={700} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
-                            <h1 className="text-2xl">Logistics Management Tools</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Fleet management</li>
-                                <li>&#x2022; Packaging management</li>
-                                <li>&#x2022; Coordinating deliveries across logistic channels</li>
-                                <li>&#x2022; Route improvement</li>
-                                <li>&#x2022; Rate evaluation</li>
-                                <li>&#x2022; Labor estimation</li>
-                            </ul>
+                            <h1 className="text-2xl">Automotive</h1>
+                            <p className="py-4">As industry leaders in automotive application development, we build custom IoT solutions for the automotive industry, thus enabling real-time monitoring of fleets, tracking traffic conditions, and managing route optimization systems.</p>
                         </div>
                     </div>
                     <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/procurement-management-tools.jpg"} alt="supply-chain-management-img-3" height={550} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
+                        <Image src={"/oil-gas-img.jpg"} alt="oil-gas-img" height={550} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
-                            <h1 className="text-2xl">Procurement Management Tools</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Purchasing raw materials
-                                </li>
-                                <li>&#x2022; Lot sizing and replenishment planning</li>
-                                <li>&#x2022; Coordinating deliveries across logistic channels</li>
-                                <li>&#x2022;Supply-side market analysis </li>
-                                <li>&#x2022; Cost evaluation</li>
-                                <li>&#x2022; Spending tracking</li>
-                            </ul>
+                            <h1 className="text-2xl">Oil & Gas</h1>
+                            <p className="py-4">As a reputable oil and gas development service provider, we excel at empowering the energy sector to monitor and optimize energy consumption effectively, manage consumption patterns, mitigate wastage, ensure sustainable operations, and achieve cost savings.</p>
                         </div>
                     </div>
                     <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/supply-chain-planning.jpg"} alt="supply-chain-management-img-3" height={700} width={450} className="h-[50%] w-[100%] rounded-t-xl"/>
+                        <Image src={"/gaming-img.jpg"} alt="gaming-img" height={700} width={450} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
-                            <h1 className="text-2xl">Supply Chain Planning Tools</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Creating custom alerts</li>
-                                <li>&#x2022; Scenario-based forecasting</li>
-                                <li>&#x2022; Resource optimization</li>
-                                <li>&#x2022; Supply forecasting</li>
-                                <li>&#x2022; Optimization of labor and materials</li>
-                            </ul>
+                            <h1 className="text-2xl">Gaming</h1>
+                            <p className="py-4">As a leading provider of IoT gaming solutions, we create immersive and interactive gaming experiences that blur the lines between physical and digital worlds. Our IoT-enabled gaming devices and platforms leverage AR to deliver engaging gameplay and social interactions.</p>
                         </div>
                     </div>
                     <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/work-management-system.jpg"} alt="supply-chain-management-img-3" height={700} width={400} className="h-[50%] w-[100%] rounded-t-xl"/>
+                        <Image src={"/manufacturing-img.jpg"} alt="manufacturing-img" height={700} width={400} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
-                            <h1 className="text-2xl">Order Management System</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Improved order fulfillment</li>
-                                <li>&#x2022; Return and refund management</li>
-                                <li>&#x2022; Coordinating deliveries across logistic channels</li>
-                                <li>&#x2022; Creating purchase orders</li>
-                                <li>&#x2022; Delivery scheduling</li>
-                                <li>&#x2022; Creating product prices and configurations</li>
-                            </ul>
+                            <h1 className="text-2xl">Manufacturing</h1>
+                            <p className="py-4">Our scalable IoT-powered manufacturing solutions empower businesses with robust inventory tracking systems, predictive maintenance applications, and supply chain tools; helping organizations optimize their processes effectively, resulting in exceptional business outcomes.</p>
                         </div>
                     </div>
                 </div>

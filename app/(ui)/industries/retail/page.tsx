@@ -37,43 +37,57 @@ export default function IndustriesPage() {
                     <h1 className=" lg:text-4xl text-2xl md:w-[50%] w-[100%] font-bold lg:px-14 px-4">We Build Versatile Software Solutions for Different Retail Sectors</h1>
                     {/* Part 1 */}
                     <div className="lg:px-14 px-4 ">
-                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
+                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-14 py-10 md:px-16 px-4">
                             <div className="w-[50%]">
-                                <Image src={"/ecommerce.svg"} alt="" height={40} width={40}/>
-                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Technology<br></br> Consulting</h1>
+                                <Image src={"/ecommerce.svg"} alt="" height={50} width={50}/>
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">eCommerce<br/> Business</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg">
-                                <p className="pt-6"> you are in two minds about the quality of your current software or simply looking to bring your business to the next level, opt for a <b>technology consulting service</b> from Bluecorp. We will thoroughly analyze the technological solutions you now employ and the tech stack that powers your company in order to find any possible flaws and then suggest strategies to fix them.
+                                <p className="">E-commerce has fundamentally reshaped the retail landscape, providing a seamless online shopping experience. Consumers can now browse through a vast selection of products, compare prices, and make purchases from the comfort of their homes. Businesses, in turn, can reach a global audience, expand their market reach, and reduce operational costs.
                                 </p>
-                                <p className="pt-10">In case you would like to benefit from custom SCM development upon consulting, such as the addition of new features or certain technological changes, we will offer a project proposal for these services.</p>
+                                <p className="pt-6">E-commerce has fundamentally reshaped the retail landscape, providing a seamless online shopping experience. Consumers can now browse through a vast selection of products, compare prices, and make purchases from the comfort of their homes. Businesses, in turn, can reach a global audience, expand their market reach, and reduce operational costs.</p>
+                                <p className="pt-6">Our experts design scalable for eCommerce businesses to optimize online sales and customer engagement.</p>
                             </div>
                         </div>
                     </div>
                     {/* Part 2 */}
                     <div className="lg:px-14 px-4 ">
-                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
+                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-14 py-10 md:px-16 px-4">
                             <div className="w-[50%]">
-                                <Image src={"/supply-chain-management-technology-consulting.svg"} alt="" height={35} width={35}/>
-                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Technology<br></br> Consulting</h1>
+                                <Image src={"/boutique.svg"} alt="" height={50} width={50}/>
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Boutiques</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg">
-                                <p className="pt-6"> you are in two minds about the quality of your current software or simply looking to bring your business to the next level, opt for a <b>technology consulting service</b> from Bluecorp. We will thoroughly analyze the technological solutions you now employ and the tech stack that powers your company in order to find any possible flaws and then suggest strategies to fix them.
-                                </p>
-                                <p className="pt-10">In case you would like to benefit from custom SCM development upon consulting, such as the addition of new features or certain technological changes, we will offer a project proposal for these services.</p>
+                                <p className="">Our team of skilled retail software developers crafts bespoke solutions designed to elevate your boutique's operations. From inventory management and point-of-sale systems to customer relationship management and online store integration, we provide the tools you need to streamline processes, enhance customer experiences, and drive sales. Our solutions are tailored to your unique needs, ensuring optimal efficiency and growth for your business.</p>
+                                <p className="pt-6">Our expert team specializes in developing innovative retail software solutions that are specifically designed to meet the unique needs of boutique businesses. We understand the intricacies of running a boutique, from managing inventory and tracking sales to providing exceptional customer service. Our software empowers you to streamline operations, enhance customer experiences, and drive business growth.</p>
                             </div>
                         </div>
                     </div>
                     {/* Part 3 */}
                     <div className="lg:px-14 px-4">
-                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
+                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-14 py-10 md:px-16 px-4">
                             <div className="w-[50%]">
-                                <Image src={"/supply-chain-management-settings.svg"} alt="" height={35} width={35}/>
-                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Legacy software<br></br> modernization</h1>
+                                <Image src={"/grocery-stores.svg"} alt="" height={40} width={40}/>
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Grocery Stores</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg">
-                                <p>It appears that your existing software may require an upgrade as it is not meeting modern requirements. Industry experts suggest that any software that is over a decade old, given the pace of innovation, is considered legacy. If you are experiencing issues with software support such as unresolved security breaches or unavailability of developers, your software is likely legacy. Similarly, if developers propose temporary fixes due to concerns about impairing other parts of the software, it may be considered legacy.</p>
-                                <p className="pt-6">As software is a critical source of data for businesses, such shortcomings can have a significant impact on operations. A single link in the chain can affect the entire system, making unstable legacy systems a significant risk factor.</p>
-                                <p className="pt-6">If you're facing any of these issues, feel free to contact us, and we'll explore ways to improve your software.</p>
+                                <p>Our team of skilled software developers creates tailored solutions to optimize your grocery store's operations. From inventory management and point-of-sale systems to supply chain optimization and customer loyalty programs, our software empowers you to streamline processes, reduce costs, and enhance the shopping experience. With our efficient solutions, you can focus on what matters most: providing quality products and exceptional customer service.</p>
+                                <p className="pt-6">Our team of expert software developers is dedicated to creating efficient and user-friendly solutions that transform your grocery store. Our software is designed to streamline operations, improve inventory management, enhance customer experiences, and boost your bottom line.</p>
+                                <p className="pt-6">We accurately track stock levels, expiration dates, and supplier information to minimize waste and optimize ordering.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Part 4 */}
+                    <div className="lg:px-14 px-4">
+                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-14 py-10 md:px-16 px-4">
+                            <div className="w-[50%]">
+                                <Image src={"/grocery-stores.svg"} alt="" height={40} width={40}/>
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Manufacturers</h1>
+                            </div>
+                            <div className="md:w-[50%] w-[100%] text-white md:text-lg">
+                                <p>We provide tailored solutions to streamline your manufacturing operations. From production planning and scheduling to quality control and inventory management, our software empowers you to enhance efficiency, reduce costs, and improve product quality. By leveraging our advanced technology, you can achieve greater productivity and gain a competitive edge in the market.</p>
+                                <p className="pt-6">We efficiently plan and schedule production runs to optimize resource utilization and meet delivery deadlines.Implement robust quality control measures to ensure product consistency and compliance with industry standards.Accurately track inventory levels, monitor stock movements, and minimize waste.</p>
                             </div>
                         </div>
                     </div>
@@ -81,96 +95,49 @@ export default function IndustriesPage() {
             </div>
             {/* Section 4 */}
             <div>
-                <Image src={"/supply-chain-management-img-2.svg"} alt="supply-chain-management-img-2" height={100} width={100} className="w-[100%] lg:px-14 px-4"/>
+                <Image src={"/retail-diagram.png"} alt="supply-chain-management-img-2" height={700} width={400} className="w-[100%] lg:px-14 px-4"/>
             </div>
 
             {/* Section 5 */}
             <div className="lg:px-14 px-4 py-20">
                 <div className="md:w-[50%]">
-                    <h1 className="lg:text-4xl md:text-2xl">Custom Supply Chain<br></br> solutions we deliver </h1>
-                    <p className="py-10 lg:text-lg">Whether you need an all-in-one system to cover every aspect of<br></br> supply chain management or a tool to perform a specific task,<br></br> there is a solution for you.</p>
+                    <h1 className="lg:text-4xl md:text-2xl">Advanced Technologies Redefining Retail Software Development</h1>
+                    <p className="py-10 lg:text-lg">Our custom retail software development innovations leverage the latest advancements to empower retailers to optimize operations, enhance customer experiences, and drive business growth. By integrating innovative technologies, we ensure your retail business remains competitive and adapts to the evolving digital landscape, thus achieving unparalleled success.</p>
                 </div>
                 <div className="md:grid lg:grid-cols-3 md:grid-cols-2 flex flex-col gap-5">
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/demand-management-software.png"} alt="demand-management-software-img" height={2000} width={800} className="h-[50%] md:w-[100%] rounded-t-xl w-full"/>
+                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                        <Image src={"/artificial-intelligence-img.jpg"} alt="artificial-intelligence-img" height={700} width={700} className="h-[50%] md:w-[100%] rounded-t-xl w-full"/>
                         <div className="p-8">
-                            <h1 className="text-2xl">Demand Management software</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Demand forecasting</li>
-                                <li>&#x2022; Client analytics</li>
-                                <li>&#x2022; Stock optimization</li>
-                                <li>&#x2022; Planning for sales and operations</li>
-                                <li>&#x2022; Tracking of prices and promotions</li>
-                            </ul>
+                            <h1 className="text-2xl">Artificial Inttelligence</h1>
+                            <p className="py-4">As a leading AI and ML development compant, we integrate machine learning algorithms and advanced speech and image recognition technologies into your retail software to automate support, personalize shopping experiences, and forecast consumer behavior.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/warehouse-management-software.jpg"} alt="supply-chain-management-img-3" height={350} width={700} className="h-[50%] w-[100%] rounded-t-xl"/>
+                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                        <Image src={"/block-chain-img.jpg"} alt="block-chain-img" height={350} width={700} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
-                            <h1 className="text-2xl">Warehouse Management software</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Warehouse operations automation</li>
-                                <li>&#x2022; Inventory tracking across warehouses</li>
-                                <li>&#x2022; Tracking using barcodes, serial Nos or RFIDs</li>
-                                <li>&#x2022; Asset administration</li>
-                                <li>&#x2022; Forecasting of future inventories and prices</li>
-                            </ul>
+                            <h1 className="text-2xl">Blockchain</h1>
+                            <p className="py-4">Leveraging blockchain technology, we secure transactions,enhance supply chain transparency, and enable seamless loyalty programs with decentralized, tamper-proof records, fostering trust and mitigating fraud in retail operations.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/logistic-management.jpg"} alt="supply-chain-management-img-3" height={700} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
+                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                        <Image src={"/cloud-img.jpg"} alt="cloud-img" height={650} width={300} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
-                            <h1 className="text-2xl">Logistics Management Tools</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Fleet management</li>
-                                <li>&#x2022; Packaging management</li>
-                                <li>&#x2022; Coordinating deliveries across logistic channels</li>
-                                <li>&#x2022; Route improvement</li>
-                                <li>&#x2022; Rate evaluation</li>
-                                <li>&#x2022; Labor estimation</li>
-                            </ul>
+                            <h1 className="text-2xl">Cloud</h1>
+                            <p className="py-4">As leaders in retail software development services, we build intuitive cloud solutions for the retail industry that facilitate seamless data integration across platforms, support real-time analytics, and enable remote access to critical business applications, ensuring flexibility and operational efficiency.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/procurement-management-tools.jpg"} alt="supply-chain-management-img-3" height={550} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
+                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                        <Image src={"/retail-analytics.jpg"} alt="retail-analytics" height={550} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
-                            <h1 className="text-2xl">Procurement Management Tools</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Purchasing raw materials
-                                </li>
-                                <li>&#x2022; Lot sizing and replenishment planning</li>
-                                <li>&#x2022; Coordinating deliveries across logistic channels</li>
-                                <li>&#x2022;Supply-side market analysis </li>
-                                <li>&#x2022; Cost evaluation</li>
-                                <li>&#x2022; Spending tracking</li>
-                            </ul>
+                            <h1 className="text-2xl">Retail Analytics</h1>
+                            <p className="py-4">Through robust data annalytics capabilitites, we optimize retail operations by analyzing extensive datasets to improve inventory management, pricing strategies, and marketing initiatives, maximizing operational efficiency and revenue potential.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/supply-chain-planning.jpg"} alt="supply-chain-management-img-3" height={700} width={450} className="h-[50%] w-[100%] rounded-t-xl"/>
+                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                        <Image src={"/retail-data-visualisation-img.jpg"} alt="supply-chain-management-img-3" height={700} width={450} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
-                            <h1 className="text-2xl">Supply Chain Planning Tools</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Creating custom alerts</li>
-                                <li>&#x2022; Scenario-based forecasting</li>
-                                <li>&#x2022; Resource optimization</li>
-                                <li>&#x2022; Supply forecasting</li>
-                                <li>&#x2022; Optimization of labor and materials</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
-                        <Image src={"/work-management-system.jpg"} alt="supply-chain-management-img-3" height={700} width={400} className="h-[50%] w-[100%] rounded-t-xl"/>
-                        <div className="px-8 py-8">
-                            <h1 className="text-2xl">Order Management System</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Improved order fulfillment</li>
-                                <li>&#x2022; Return and refund management</li>
-                                <li>&#x2022; Coordinating deliveries across logistic channels</li>
-                                <li>&#x2022; Creating purchase orders</li>
-                                <li>&#x2022; Delivery scheduling</li>
-                                <li>&#x2022; Creating product prices and configurations</li>
-                            </ul>
+                            <h1 className="text-2xl">Retail Data Visualization</h1>
+                            <p className="py-4">By employing cutting-edge data visualization techniques, we turn complex retail data into clear, interactive visuals. This approach helps retailers easily interpret key metrics, monitor performance trends, and make informed decisions.</p> 
                         </div>
                     </div>
                 </div>
