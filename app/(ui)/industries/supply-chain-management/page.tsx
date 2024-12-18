@@ -3,7 +3,7 @@ import Header from "@/components/layout/header";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function IndustriesPage() {
+export default function SupplyChainPage() {
     return(
         <div>
             <Header />
@@ -87,7 +87,7 @@ export default function IndustriesPage() {
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg">
                                 <p>It appears that your existing software may require an upgrade as it is not meeting modern requirements. Industry experts suggest that any software that is over a decade old, given the pace of innovation, is considered legacy. If you are experiencing issues with software support such as unresolved security breaches or unavailability of developers, your software is likely legacy. Similarly, if developers propose temporary fixes due to concerns about impairing other parts of the software, it may be considered legacy.</p>
                                 <p className="pt-6">As software is a critical source of data for businesses, such shortcomings can have a significant impact on operations. A single link in the chain can affect the entire system, making unstable legacy systems a significant risk factor.</p>
-                                <p className="pt-6">If you're facing any of these issues, feel free to contact us, and we'll explore ways to improve your software.</p>
+                                <p className="pt-6">If you&apos;re facing any of these issues, feel free to contact us, and we&apos;ll explore ways to improve your software.</p>
                             </div>
                         </div>
                     </div>

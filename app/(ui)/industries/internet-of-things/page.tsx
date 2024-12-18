@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/components/layout/header";
 import Image from "next/image";
 
-export default function IndustriesPage() {
+export default function InternetOfThingsPage() {
     return(
         <div>
             <Header />
@@ -65,7 +65,7 @@ export default function IndustriesPage() {
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg">
                                 <p className="pt-6">As a key component of our Internet of Things application development services, we focus on defining tailored solutions once a problem or need is identified. This involves selecting the appropriate sensors, devices, functionalities, and platforms required to build effective and innovative IoT applications.
                                 </p>
-                                <p className="pt-10">Once we've pinpointed the specific problem or opportunity, our team of IoT experts meticulously crafts a tailored solution. This involves a comprehensive analysis of your existing infrastructure and business objectives, followed by a meticulous selection of the most suitable technologies and components.</p>
+                                <p className="pt-10">Once we&apos;ve pinpointed the specific problem or opportunity, our team of IoT experts meticulously crafts a tailored solution. This involves a comprehensive analysis of your existing infrastructure and business objectives, followed by a meticulous selection of the most suitable technologies and components.</p>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ export default function IndustriesPage() {
                                 <h1 className="pt-10 text-white lg:text-5xl text-2xl">Creating the Design</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg">
-                                <p>As one of the most exceptional IoT product development companies, we ensure that our design team creates highly intuitive, clickable architectural prototypes that users can navigate. This stage also involves making choices regarding the app's hosting, data storage methods, and interoperability with other hardware.</p>
+                                <p>As one of the most exceptional IoT product development companies, we ensure that our design team creates highly intuitive, clickable architectural prototypes that users can navigate. This stage also involves making choices regarding the app&apos;s hosting, data storage methods, and interoperability with other hardware.</p>
                                 <p className="pt-6">Our team leverages cutting-edge IoT platforms and development frameworks to build robust and scalable applications. We consider factors like security, scalability, and ease of integration.</p>
                             </div>
                         </div>

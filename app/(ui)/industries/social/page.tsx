@@ -20,7 +20,7 @@ export default function SocialPage() {
             {/* Section 1 */}
             <div className="py-10 lg:px-14 px-4">
                 <h1 className="lg:text-7xl text-3xl text-center md:pt-20 pt-6">Social Media App <br /> Development Services</h1>
-                <p className="text-center text-xl md:py-10 py-6">In today's connected world, people yearn for meaningful interactions. They crave platforms that entertain, inform, and foster a sense of community. At Bluecorp Softwares, we help you build social media apps that deliver on these desires. Our expert development services transform your vision into a reality, creating engaging experiences that captivate users and build thriving online communities.</p>
+                <p className="text-center text-xl md:py-10 py-6">In today&apos;s connected world, people yearn for meaningful interactions. They crave platforms that entertain, inform, and foster a sense of community. At Bluecorp Softwares, we help you build social media apps that deliver on these desires. Our expert development services transform your vision into a reality, creating engaging experiences that captivate users and build thriving online communities.</p>
                 <button></button>
             </div>
             <Image src={"/social-front-img.png"} alt="social-front-img" height={1000} width={2000} className="w-[100%] "/>
@@ -72,7 +72,7 @@ export default function SocialPage() {
                                 <h1 className="pt-10 text-white lg:text-5xl text-2xl">Any concept may become extremely popular</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg md:pt-0 pt-8">
-                                <p> Any social media app concept has the potential for widespread popularity. Our experience underscores this. To maximize this potential, pinpoint your "killer feature"  the unique element that distinguishes your app. Is it innovative content formats (e.g., interactive videos, AI-powered voice messages), novel communication methods (e.g., live Q&A rooms, exclusive communities), or a groundbreaking discovery mechanism? This defining feature will be crucial for user engagement and building a loyal user base.</p>
+                                <p> Any social media app concept has the potential for widespread popularity. Our experience underscores this. To maximize this potential, pinpoint your &quot;killer feature&quot;  the unique element that distinguishes your app. Is it innovative content formats (e.g., interactive videos, AI-powered voice messages), novel communication methods (e.g., live Q&A rooms, exclusive communities), or a groundbreaking discovery mechanism? This defining feature will be crucial for user engagement and building a loyal user base.</p>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ export default function SocialPage() {
                                 <h1 className="pt-10 text-white lg:text-5xl text-2xl">Brands can go social</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg md:pt-0 pt-8">
-                                <p>Many brands strive to build communities across various social media platforms. However, a more focused approach, exemplified by Red Bull, is to create a dedicated app tailored to a specific niche. In Red Bull's case, they've successfully built a community around athletes and their passions. This strategy fosters deeper engagement and loyalty within a targeted audience, demonstrating the power of a dedicated platform for community building.</p>
+                                <p>Many brands strive to build communities across various social media platforms. However, a more focused approach, exemplified by Red Bull, is to create a dedicated app tailored to a specific niche. In Red Bull&apos;s case, they&apos;ve successfully built a community around athletes and their passions. This strategy fosters deeper engagement and loyalty within a targeted audience, demonstrating the power of a dedicated platform for community building.</p>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ export default function SocialPage() {
                                 <h1 className="pt-10 text-white lg:text-5xl text-2xl">Targeting users are endless</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg md:pt-0 pt-8">
-                                <p>The "Creative Catalyst" app is designed to be a central hub for creatives. Key features include project boards for collaborative efforts, workshops to share skills, platforms to showcase portfolios, and engaging creative challenges. This platform strives to foster meaningful connections, inspire innovative ideas, and provide a supportive environment for artists, writers, musicians, and all other creative minds to flourish.</p>
+                                <p>The &quot;Creative Catalyst&quot; app is designed to be a central hub for creatives. Key features include project boards for collaborative efforts, workshops to share skills, platforms to showcase portfolios, and engaging creative challenges. This platform strives to foster meaningful connections, inspire innovative ideas, and provide a supportive environment for artists, writers, musicians, and all other creative minds to flourish.</p>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ export default function SocialPage() {
                         <div className="p-8">
                             <h1 className="text-2xl">Development, testing, and successful launch</h1>
                             <p className="py-4">
-                            Backend developers manage the website's core logic and data. Frontend developers translate design into interactive user interfaces. Throughout development, QA engineers rigorously test for flaws and vulnerabilities, ensuring a high-quality and secure product before release.
+                            Backend developers manage the website&apos;s core logic and data. Frontend developers translate design into interactive user interfaces. Throughout development, QA engineers rigorously test for flaws and vulnerabilities, ensuring a high-quality and secure product before release.
                             </p>
                         </div>
                     </div>
@@ -129,7 +129,7 @@ export default function SocialPage() {
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Business Analysis</h1>
                             <p className="py-4">
-                            Business Analysis is crucial for achieving your desired outcome. We'll assist you in defining your business needs, objectives, and functional requirements. We'll focus on core features for your Minimum Viable Product, allowing you to test the market and gather valuable feedback for necessary improvements.
+                            Business Analysis is crucial for achieving your desired outcome. We&apos;ll assist you in defining your business needs, objectives, and functional requirements. We&apos;ll focus on core features for your Minimum Viable Product, allowing you to test the market and gather valuable feedback for necessary improvements.
                             </p>
                         </div>
                     </div>
@@ -138,7 +138,7 @@ export default function SocialPage() {
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Product Visual Concept</h1>
                             <p className="py-4">
-                            The visual concept of a product extends beyond mere aesthetics and user-friendliness. It embodies the core message and brand identity, answering the fundamental question: "Who are we and how do we differentiate ourselves?" within the product's design and presentation.
+                            The visual concept of a product extends beyond mere aesthetics and user-friendliness. It embodies the core message and brand identity, answering the fundamental question: &quot;Who are we and how do we differentiate ourselves?&quot; within the product&apos;s design and presentation.
                             </p>
                         </div>
                     </div>
@@ -165,7 +165,7 @@ export default function SocialPage() {
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">ASO</h1>
                             <p className="py-4">
-                            To significantly boost your app's visibility and downloads, consider incorporating app store optimization (ASO) services alongside our social media app development expertise.
+                            To significantly boost your app&apos;s visibility and downloads, consider incorporating app store optimization (ASO) services alongside our social media app development expertise.
                             </p>
                         </div>
                     </div>

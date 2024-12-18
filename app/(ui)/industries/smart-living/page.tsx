@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/components/layout/header";
 import Image from "next/image";
 
-export default function IndustriesPage() {
+export default function SmartLivingPage() {
     return(
         <div>
             <Header />
@@ -23,8 +23,8 @@ export default function IndustriesPage() {
                 <h1 className="lg:text-4xl text-2xl md:w-[50%] font-bold">Challenges in the Smart<br/> Home Revolution</h1>
                 <div className="md:flex justify-evenly gap-14">
                     <div className="md:w-[50%] w-[100%]">
-                        <p className="py-10">Despite the promise of convenience and efficiency, smart living presents several challenges. Data privacy and security are major concerns, with the increasing number of connected devices collecting personal data. Interoperability between different smart devices and platforms remains a significant hurdle, hindering seamless integration and creating a fragmented user experience. .</p>
-                        <p className="">Cybersecurity threats are a growing concern, as hackers can exploit vulnerabilities in smart home networks to gain access to personal information and even control devices. Additionally, the high cost of adopting smart home technology can be a barrier for many, limiting its accessibility to a wider audience. Finally, the potential for "smart home fatigue" exists, as users may feel overwhelmed by the complexity of managing and maintaining a large number of connected devices.</p>
+                        <p className="py-10">Despite the promise of convenience and efficiency, smart living presents several challenges. Data privacy and security are major concerns, with the increasing number of connected devices collecting personal data. Interoperability between different smart devices and platforms remains a significant hurdle, hindering seamless integration and creating a fragmented user experience.</p>
+                        <p className="">Cybersecurity threats are a growing concern, as hackers can exploit vulnerabilities in smart home networks to gain access to personal information and even control devices. Additionally, the high cost of adopting smart home technology can be a barrier for many, limiting its accessibility to a wider audience. Finally, the potential for &quot;smart home fatigue&quot; exists, as users may feel overwhelmed by the complexity of managing and maintaining a large number of connected devices.</p>
                     </div>
                     <div className="md:w-[50%] w-[100%]">
                     <p className="py-10">Smart Living Software developed by professionals can help address these and many other concerns:</p>
@@ -52,7 +52,7 @@ export default function IndustriesPage() {
                             </div>
                             <div className="md:w-[50%] w-full text-white md:text-lg">
                                 <p className="">Experience the future of living with our cutting-edge home automation solutions. Seamlessly control your lights, thermostats, security systems, and more from anywhere in the world with your smartphone or voice commands. Enjoy unparalleled convenience, enhanced security, and a touch of luxury as you transform your home into a smart and intuitive living space.</p>
-                                <p className="pt-6">Enhance your home security and enjoy peace of mind with our comprehensive home automation solutions. Integrate smart locks, security cameras, and motion sensors for enhanced protection against intruders. Receive instant alerts and remotely monitor your property, ensuring the safety and well-being of your loved ones, even when you're away.</p>
+                                <p className="pt-6">Enhance your home security and enjoy peace of mind with our comprehensive home automation solutions. Integrate smart locks, security cameras, and motion sensors for enhanced protection against intruders. Receive instant alerts and remotely monitor your property, ensuring the safety and well-being of your loved ones, even when you&apos;re away.</p>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ export default function IndustriesPage() {
                                 <h1 className="pt-10 text-white lg:text-5xl text-2xl">Home Accessibility</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg">
-                                <p>We believe that everyone deserves to feel comfortable and safe in their own home. That's why we specialize in creating accessible living environments for individuals of all abilities. Whether you're looking to improve mobility, enhance safety features, or simply make your home more user-friendly, we can help.</p> 
+                                <p>We believe that everyone deserves to feel comfortable and safe in their own home. That&apos;s why we specialize in creating accessible living environments for individuals of all abilities. Whether you&apos;re looking to improve mobility, enhance safety features, or simply make your home more user-friendly, we can help.</p> 
                                 <p className="py-6"> Our team of experienced professionals can assess your needs, recommend appropriate solutions, and implement a wide range of accessibility modifications, from installing ramps and widening doorways to creating customized bathroom solutions and optimizing kitchen layouts. We are committed to creating inclusive and accessible homes that promote independence, dignity, and quality of life.</p>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ export default function IndustriesPage() {
                         <Image src={"/remote-control-img.jpg"} alt="remote-control-img" height={2000} width={800} className="h-[50%] md:w-[100%] rounded-t-xl w-full"/>
                         <div className="p-8">
                             <h1 className="text-2xl">Remote Control</h1>
-                            <p className="py-6">Control lights, thermostats, appliances, and security systems remotely through a smartphone app or voice commands and Control your home's environment and devices remotely from anywhere in the world with your smartphone or voice commands.</p>
+                            <p className="py-6">Control lights, thermostats, appliances, and security systems remotely through a smartphone app or voice commands and Control your home&apos;s environment and devices remotely from anywhere in the world with your smartphone or voice commands.</p>
                         </div>
                     </div>
                     <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">

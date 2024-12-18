@@ -17,9 +17,6 @@ type NavItem = {
 export default function Header() {
   const router = useRouter()
   const [isOpen, setIsOpen] = useState(false);
-  const IndustriesDropdown = () => {
-    setIsOpen(!isOpen);
-  };
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };

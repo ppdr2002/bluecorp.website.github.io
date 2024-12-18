@@ -26,7 +26,7 @@ export default function IndustriesPage() {
                   </div>
                   <h1 className='text-2xl font-bold'>Supply Chain Management</h1>
                 </div>
-                <p>In today's complex global marketplace, efficient and effective supply chain management is the cornerstone of business success.Our company is dedicated to helping organizations streamline their operations, reduce costs, and enhance customer satisfaction. </p>
+                <p>In today&apos;s complex global marketplace, efficient and effective supply chain management is the cornerstone of business success.Our company is dedicated to helping organizations streamline their operations, reduce costs, and enhance customer satisfaction. </p>
               </div>
               {/* Retail Section */}
               <div className='flex flex-col gap-4'>
@@ -89,7 +89,7 @@ export default function IndustriesPage() {
           {/* Section 3 */}
           <div className='flex w-full justify-center py-10 lg:px-24 px-8'>
             <div className='flex flex-col gap-8 items-center lg:w-[60%] md:w-[70%] w-full border-2 border-blue-600 md:py-16 py-6 lg:px-24 md:px-10 text-center rounded-xl'>
-              <h1 className='lg:text-3xl md:text-sm font-bold'>You're one step away from transforming your business growth trajectory</h1>
+              <h1 className='lg:text-3xl md:text-sm font-bold'>You&apos;re one step away from transforming your business growth trajectory</h1>
               <button className='px-5 py-2 bg-blue-600 rounded-xl text-white'>Talk to our experts </button>
             </div>
           </div>

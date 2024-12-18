@@ -3,7 +3,7 @@ import Header from "@/components/layout/header";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function IndustriesPage() {
+export default function RetailPage() {
     return(
         <div>
             <Header />
@@ -74,7 +74,7 @@ export default function IndustriesPage() {
                                 <h1 className="pt-10 text-white lg:text-5xl text-2xl">Boutiques</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg">
-                                <p className="">Our team of skilled retail software developers crafts bespoke solutions designed to elevate your boutique's operations. From inventory management and point-of-sale systems to customer relationship management and online store integration, we provide the tools you need to streamline processes, enhance customer experiences, and drive sales. Our solutions are tailored to your unique needs, ensuring optimal efficiency and growth for your business.</p>
+                                <p className="">Our team of skilled retail software developers crafts bespoke solutions designed to elevate your boutique&apos;s operations. From inventory management and point-of-sale systems to customer relationship management and online store integration, we provide the tools you need to streamline processes, enhance customer experiences, and drive sales. Our solutions are tailored to your unique needs, ensuring optimal efficiency and growth for your business.</p>
                                 <p className="pt-6">Our expert team specializes in developing innovative retail software solutions that are specifically designed to meet the unique needs of boutique businesses. We understand the intricacies of running a boutique, from managing inventory and tracking sales to providing exceptional customer service. Our software empowers you to streamline operations, enhance customer experiences, and drive business growth.</p>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ export default function IndustriesPage() {
                                 <h1 className="pt-10 text-white lg:text-5xl text-2xl">Grocery Stores</h1>
                             </div>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg">
-                                <p>Our team of skilled software developers creates tailored solutions to optimize your grocery store's operations. From inventory management and point-of-sale systems to supply chain optimization and customer loyalty programs, our software empowers you to streamline processes, reduce costs, and enhance the shopping experience. With our efficient solutions, you can focus on what matters most: providing quality products and exceptional customer service.</p>
+                                <p>Our team of skilled software developers creates tailored solutions to optimize your grocery store&apos;s operations. From inventory management and point-of-sale systems to supply chain optimization and customer loyalty programs, our software empowers you to streamline processes, reduce costs, and enhance the shopping experience. With our efficient solutions, you can focus on what matters most: providing quality products and exceptional customer service.</p>
                                 <p className="pt-6">Our team of expert software developers is dedicated to creating efficient and user-friendly solutions that transform your grocery store. Our software is designed to streamline operations, improve inventory management, enhance customer experiences, and boost your bottom line.</p>
                                 <p className="pt-6">We accurately track stock levels, expiration dates, and supplier information to minimize waste and optimize ordering.
                                 </p>
