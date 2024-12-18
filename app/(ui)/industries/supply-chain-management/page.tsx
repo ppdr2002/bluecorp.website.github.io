@@ -45,6 +45,7 @@ export default function IndustriesPage() {
                     </div>
                 </div>
             </div>
+
             {/* Section 3 */}
             <div className="lg:py-20 py-10">
                 <div className="flex flex-col gap-10">
@@ -92,6 +93,7 @@ export default function IndustriesPage() {
                     </div>
                 </div> 
             </div>
+
             {/* Section 4 */}
             <div>
                 <Image src={"/supply-chain-management-img-2.svg"} alt="supply-chain-management-img-2" height={100} width={100} className="w-[100%] lg:px-14 px-4"/>
@@ -104,7 +106,7 @@ export default function IndustriesPage() {
                     <p className="py-10 lg:text-lg">Whether you need an all-in-one system to cover every aspect of<br></br> supply chain management or a tool to perform a specific task,<br></br> there is a solution for you.</p>
                 </div>
                 <div className="md:grid lg:grid-cols-3 md:grid-cols-2 flex flex-col gap-5">
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/demand-management-software.png"} alt="demand-management-software-img" height={2000} width={800} className="h-[50%] md:w-[100%] rounded-t-xl w-full"/>
                         <div className="p-8">
                             <h1 className="text-2xl">Demand Management software</h1>
@@ -117,7 +119,7 @@ export default function IndustriesPage() {
                             </ul>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/warehouse-management-software.jpg"} alt="supply-chain-management-img-3" height={350} width={700} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Warehouse Management software</h1>
@@ -130,7 +132,7 @@ export default function IndustriesPage() {
                             </ul>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/logistic-management.jpg"} alt="supply-chain-management-img-3" height={700} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Logistics Management Tools</h1>
@@ -144,7 +146,7 @@ export default function IndustriesPage() {
                             </ul>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/procurement-management-tools.jpg"} alt="supply-chain-management-img-3" height={550} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Procurement Management Tools</h1>
@@ -159,7 +161,7 @@ export default function IndustriesPage() {
                             </ul>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/supply-chain-planning.jpg"} alt="supply-chain-management-img-3" height={700} width={450} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Supply Chain Planning Tools</h1>
@@ -172,7 +174,7 @@ export default function IndustriesPage() {
                             </ul>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/work-management-system.jpg"} alt="supply-chain-management-img-3" height={700} width={400} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Order Management System</h1>

@@ -21,7 +21,6 @@ export default function IndustriesPage() {
                 <div className="md:w-2/4 w-full">
                     <h1 className="lg:text-7xl text-3xl md:pt-20 pt-6">Retail & <br className="lg:block hidden"/> Consumer Goods</h1>
                     <p className="text-xl md:py-10 py-6 lg:w-[50%]">Customer expectations continue to evolve and today&#39;s customers expect meaningful interactions wherever they shop or engage with a brand. That&#39;s why Bluecorp&#39;s retail experts work side by side with you to deliver seamless, scalable, customer-centric, omnichannel experiences.</p>
-                    <button></button>
                 </div>
                 <div className="md:w-2/4 w-full flex items-center justify-center">
                     <Image src={"/retail-front-img.png"}  alt="retail-front-img" width={537} height={450} className="h-[500px] w-[500px]"/>
@@ -112,8 +111,8 @@ export default function IndustriesPage() {
             </div>
 
             {/* Section 4 */}
-            <div>
-                <Image src={"/retail-diagram.png"} alt="supply-chain-management-img-2" height={700} width={400} className="w-[100%] lg:px-14 px-4"/>
+            <div className="flex items-center justify-center">
+                <Image src={"/retail-diagram.png"} alt="supply-chain-management-img-2" height={700} width={400} className="w-[70%] lg:px-14 px-4"/>
             </div>
 
             {/* Section 5 */}
@@ -123,91 +122,43 @@ export default function IndustriesPage() {
                     <p className="py-10 lg:text-lg">Our custom retail software development innovations leverage the latest advancements to empower retailers to optimize operations, enhance customer experiences, and drive business growth. By integrating innovative technologies, we ensure your retail business remains competitive and adapts to the evolving digital landscape, thus achieving unparalleled success.</p>
                 </div>
                 <div className="md:grid lg:grid-cols-3 md:grid-cols-2 flex flex-col gap-5">
-<<<<<<< Updated upstream
-                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/artificial-intelligence-img.jpg"} alt="artificial-intelligence-img" height={700} width={700} className="h-[50%] md:w-[100%] rounded-t-xl w-full"/>
-=======
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
-                        <Image src={"/demand-management-software.png"} alt="demand-management-software-img" height={2000} width={800} className="h-[50%] md:w-[100%] rounded-t-xl w-full"/>
->>>>>>> Stashed changes
                         <div className="p-8">
                             <h1 className="text-2xl">Artificial Inttelligence</h1>
                             <p className="py-4">As a leading AI and ML development compant, we integrate machine learning algorithms and advanced speech and image recognition technologies into your retail software to automate support, personalize shopping experiences, and forecast consumer behavior.</p>
                         </div>
                     </div>
-<<<<<<< Updated upstream
-                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/block-chain-img.jpg"} alt="block-chain-img" height={350} width={700} className="h-[50%] w-[100%] rounded-t-xl"/>
-=======
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
-                        <Image src={"/warehouse-management-software.jpg"} alt="supply-chain-management-img-3" height={350} width={700} className="h-[50%] w-[100%] rounded-t-xl"/>
->>>>>>> Stashed changes
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Blockchain</h1>
                             <p className="py-4">Leveraging blockchain technology, we secure transactions,enhance supply chain transparency, and enable seamless loyalty programs with decentralized, tamper-proof records, fostering trust and mitigating fraud in retail operations.</p>
                         </div>
                     </div>
-<<<<<<< Updated upstream
-                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/cloud-img.jpg"} alt="cloud-img" height={650} width={300} className="h-[50%] w-[100%] rounded-t-xl"/>
-=======
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
-                        <Image src={"/logistic-management.jpg"} alt="supply-chain-management-img-3" height={700} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
->>>>>>> Stashed changes
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Cloud</h1>
                             <p className="py-4">As leaders in retail software development services, we build intuitive cloud solutions for the retail industry that facilitate seamless data integration across platforms, support real-time analytics, and enable remote access to critical business applications, ensuring flexibility and operational efficiency.</p>
                         </div>
                     </div>
-<<<<<<< Updated upstream
-                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/retail-analytics.jpg"} alt="retail-analytics" height={550} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
-=======
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
-                        <Image src={"/procurement-management-tools.jpg"} alt="supply-chain-management-img-3" height={550} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
->>>>>>> Stashed changes
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Retail Analytics</h1>
                             <p className="py-4">Through robust data annalytics capabilitites, we optimize retail operations by analyzing extensive datasets to improve inventory management, pricing strategies, and marketing initiatives, maximizing operational efficiency and revenue potential.</p>
                         </div>
                     </div>
-<<<<<<< Updated upstream
-                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[600px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/retail-data-visualisation-img.jpg"} alt="supply-chain-management-img-3" height={700} width={450} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Retail Data Visualization</h1>
                             <p className="py-4">By employing cutting-edge data visualization techniques, we turn complex retail data into clear, interactive visuals. This approach helps retailers easily interpret key metrics, monitor performance trends, and make informed decisions.</p> 
-=======
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
-                        <Image src={"/supply-chain-planning.jpg"} alt="supply-chain-management-img-3" height={700} width={450} className="h-[50%] w-[100%] rounded-t-xl"/>
-                        <div className="px-8 py-8">
-                            <h1 className="text-2xl">Supply Chain Planning Tools</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Creating custom alerts</li>
-                                <li>&#x2022; Scenario-based forecasting</li>
-                                <li>&#x2022; Resource optimization</li>
-                                <li>&#x2022; Supply forecasting</li>
-                                <li>&#x2022; Optimization of labor and materials</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
-                        <Image src={"/work-management-system.jpg"} alt="supply-chain-management-img-3" height={700} width={400} className="h-[50%] w-[100%] rounded-t-xl"/>
-                        <div className="px-8 py-8">
-                            <h1 className="text-2xl">Order Management System</h1>
-                            <ul className="py-4">
-                                <li>&#x2022; Improved order fulfillment</li>
-                                <li>&#x2022; Return and refund management</li>
-                                <li>&#x2022; Coordinating deliveries across logistic channels</li>
-                                <li>&#x2022; Creating purchase orders</li>
-                                <li>&#x2022; Delivery scheduling</li>
-                                <li>&#x2022; Creating product prices and configurations</li>
-                            </ul>
->>>>>>> Stashed changes
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }

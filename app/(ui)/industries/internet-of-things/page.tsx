@@ -6,13 +6,19 @@ export default function IndustriesPage() {
     return(
         <div>
             <Header />
-            <Image src={"/internet-of-things-front-img.png"} alt="internet-of-things-front-img" height={1000} width={2000} className="w-[100%]"/>
+            
             {/* Section 1 */}
-            <div className="py-10 lg:px-14 px-4">
-                <h1 className="lg:text-7xl text-3xl text-right md:pt-20 pt-6">Internet of Things</h1>
-                <p className="text-right text-xl md:py-10 py-6">Revolutionizing industries through Custom IoT software & Application development services that promote seamless integration and limitless innovation.</p>
-                <button></button>
+            <div className="py-10 lg:px-14 px-4 flex md:flex-nowrap flex-wrap-reverse">
+                <div className="md:w-2/4 w-full">
+                    <h1 className="lg:text-7xl text-3xl md:pt-20 pt-6">Internet of Things</h1>
+                    <p className="text-xl md:py-10 py-6">Revolutionizing industries through Custom IoT software & Application development services that promote seamless integration and limitless innovation.</p>
+                </div>
+                <div className="md:w-2/4 w-full flex items-center justify-center">
+                    <Image src={"/internet-of-things.png"}  alt="internet-of-things" width={537} height={450} className="h-[450px] w-[450px]"/>
+                </div>
             </div>
+            <Image src={"/internet-of-things-front-img.png"} alt="internet-of-things-front-img" height={500} width={1000} className="w-[100%]"/>
+
             {/* Section 2 */}
             <div className="lg:px-14 px-4 bg-blue-800 py-14 text-white text-lg">
                 <h1 className="lg:text-4xl text-2xl md:w-[50%] font-bold">Why Choose Bluecorp as Your IoT<br/> Development Company</h1>
@@ -31,10 +37,11 @@ export default function IndustriesPage() {
                     </div>
                 </div>
             </div>
+
             {/* Section 3 */}
             <div className="lg:py-20 py-10">
                 <div className="flex flex-col gap-10">
-                    <h1 className=" lg:text-4xl text-2xl md:w-[50%] w-[100%] font-bold lg:px-14 px-4">What we do as a supply chain software company</h1>
+                    <h1 className=" lg:text-4xl text-2xl md:w-[50%] w-[100%] font-bold lg:px-14 px-4">What we do as a IoT company</h1>
                     {/* Part 1 */}
                     <div className="lg:px-14 px-4">
                         <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-14 py-10 md:px-16 px-4">
@@ -77,9 +84,10 @@ export default function IndustriesPage() {
                     </div>
                 </div> 
             </div>
+
             {/* Section 4 */}
-            <div>
-                <Image src={"/internet-of-things-diagram.png"} alt="supply-chain-management-img-2" height={700} width={400} className="w-[100%] lg:px-14 px-4"/>
+            <div className="flex items-center justify-center">
+                <Image src={"/internet-of-things-diagram.png"} alt="supply-chain-management-img-2" height={1000} width={2000} className="w-[40%] lg:px-14 px-4"/>
             </div>
 
             {/* Section 5 */}
@@ -88,43 +96,44 @@ export default function IndustriesPage() {
                     <h1 className="lg:text-4xl text-2xl">Unleash the Full Potential of IoT with Our Agile Development Approach</h1>
                     <p className="py-10 lg:text-lg">Over the years, our Internet of Things developers have contributed to scaling up the efficiency and productivity of businesses across different industries. Our IoT software development services have benefited numerous industries with tailored solutions that enhance automation, improve data-driven decision-making, optimize resource management, and drive operational efficiency.</p>
                 </div>
+
                 <div className="md:grid lg:grid-cols-3 md:grid-cols-2 flex flex-col gap-5">
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/health-care.jpg"} alt="healtj-care-img" height={2000} width={800} className="h-[50%] md:w-[100%] rounded-t-xl w-full"/>
                         <div className="p-8">
                             <h1 className="text-2xl">HealthCare</h1>
                             <p className="py-4">As a leading healthcare app development company, we build IoT-backed healthcare solutions that improve patient care with remote monitoring systems, allowing patients to connect with caregivers through smart medical devices.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/finance-img.jpg"} alt="financce-img" height={350} width={700} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Finance</h1>
                             <p className="py-4">Our IoT-powered FinTech solutions help organizations automate processes with fraud detection sensors, data analytics platforms, and smart payment systems that reduce instances of breaches and boost customer experience.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/automotive-img.jpg"} alt="automotive-img" height={700} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Automotive</h1>
                             <p className="py-4">As industry leaders in automotive application development, we build custom IoT solutions for the automotive industry, thus enabling real-time monitoring of fleets, tracking traffic conditions, and managing route optimization systems.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/oil-gas-img.jpg"} alt="oil-gas-img" height={550} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Oil & Gas</h1>
                             <p className="py-4">As a reputable oil and gas development service provider, we excel at empowering the energy sector to monitor and optimize energy consumption effectively, manage consumption patterns, mitigate wastage, ensure sustainable operations, and achieve cost savings.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/gaming-img.jpg"} alt="gaming-img" height={700} width={450} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Gaming</h1>
                             <p className="py-4">As a leading provider of IoT gaming solutions, we create immersive and interactive gaming experiences that blur the lines between physical and digital worlds. Our IoT-enabled gaming devices and platforms leverage AR to deliver engaging gameplay and social interactions.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/manufacturing-img.jpg"} alt="manufacturing-img" height={700} width={400} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Manufacturing</h1>

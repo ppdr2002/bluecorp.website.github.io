@@ -7,12 +7,17 @@ export default function IndustriesPage() {
         <div>
             <Header />
             {/* Section 1 */}
-
-            {/* <div className="py-10 lg:px-14 px-4">
-                <h1 className="lg:text-7xl text-3xl text-center md:pt-20 pt-6">Smart Living</h1>
+            <div className="py-10 lg:px-14 px-4 flex md:flex-nowrap flex-wrap">
+                <div className="md:w-2/4 w-full flex items-center justify-center">
+                    <Image src={"/smart-living.png"}  alt="smart-living" width={607} height={450} className="h-fit w-[500px]"/>
+                </div>
+                <div className="md:w-2/4 w-full flex flex-col items-end">
+                    <h1 className="lg:text-7xl text-3xl md:pt-20 pt-6">Smart Living</h1>
+                    <p className="text-xl md:py-10 py-6 lg:w-[90%] text-end">If you are looking for a reliable and innovative partner to develop your smart living solution, Bluecorp is an excellent choice.Our expertise, user-centric approach, and commitment to excellence make them a leader in the smart living development space.</p>
+                </div>                
             </div>
             <Image src={"/smart-living-front-img.png"} alt="smart-living-front-img" height={1000} width={2000} className="w-[100%]"/>
-            <p className="text-center text-xl md:py-10 py-6">If you are looking for a reliable and innovative partner to develop your smart living solution, Bluecorp is an excellent choice.Our expertise, user-centric approach, and commitment to excellence make them a leader in the smart living development space.</p> */}
+
             {/* Section 2 */}
             <div className="lg:px-14 px-4 bg-blue-800 py-14 text-white text-lg">
                 <h1 className="lg:text-4xl text-2xl md:w-[50%] font-bold">Challenges in the Smart<br/> Home Revolution</h1>
@@ -33,6 +38,7 @@ export default function IndustriesPage() {
                     </div>
                 </div>
             </div>
+
             {/* Section 3 */}
             <div className="lg:py-20 py-10">
                 <div className="flex flex-col gap-10">
@@ -79,9 +85,10 @@ export default function IndustriesPage() {
                     </div>
                 </div> 
             </div>
+
             {/* Section 4 */}
-            <div>
-                <Image src={"/smart-living-diagram.png"} alt="supply-chain-management-img-2" height={750} width={350} className="w-[100%] lg:px-14 px-4"/>
+            <div className="flex items-center justify-center">
+                <Image src={"/smart-living-diagram.png"} alt="supply-chain-management-img-2" height={1000} width={2000} className="w-[70%] lg:px-14 px-4"/>
             </div>
 
             {/* Section 5 */}
@@ -91,14 +98,14 @@ export default function IndustriesPage() {
                     <p className="py-10 lg:text-lg">Whether you dream of a fully automated home or need help with a specific smart device, we have the perfect solution for you.</p>
                 </div>
                 <div className="md:grid lg:grid-cols-3 md:grid-cols-2 flex flex-col gap-5">
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/remote-control-img.jpg"} alt="remote-control-img" height={2000} width={800} className="h-[50%] md:w-[100%] rounded-t-xl w-full"/>
                         <div className="p-8">
                             <h1 className="text-2xl">Remote Control</h1>
                             <p className="py-6">Control lights, thermostats, appliances, and security systems remotely through a smartphone app or voice commands and Control your home's environment and devices remotely from anywhere in the world with your smartphone or voice commands.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/renewable-energy-img.jpg"} alt="renewable-energy-img" height={350} width={700} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Renewable Energy Solution</h1>
@@ -106,28 +113,28 @@ export default function IndustriesPage() {
                             </p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/home-survillence-img.jpg"} alt="home-survillence-img" height={700} width={450} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Home Surveillance</h1>
                             <p className="py-6">Provide remote access to live and recorded video feeds from home security cameras.Enhance your peace of mind with a comprehensive home surveillance system that deters intruders and provides valuable evidence in case of emergencies.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/access-control-img.jpg"} alt="access-control-img" height={550} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Access Control</h1>
                             <p className="py-6">Implement smart locks, keyless entry systems, and other access control solutions.Enhance your home security and convenience with keyless entry systems, smart locks, and video doorbells that allow you to control access to your property remotely.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/smart-home-entertainment-img.jpg"} alt="smart-home-entertainment-img" height={700} width={450} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Smart Home Entertainment</h1>
                             <p className="py-6">Integrate smart TVs, sound systems, and streaming services for a seamless entertainment experience.Transform your living room into a personalized entertainment hub with seamless integration of smart TVs, streaming devices, and surround sound systems.</p>
                         </div>
                     </div>
-                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
                         <Image src={"/emergency-response-service-img.jpg"} alt="emergency-response-service-img" height={700} width={400} className="h-[50%] w-[100%] rounded-t-xl"/>
                         <div className="px-8 py-8">
                             <h1 className="text-2xl">Emergency Response Services</h1>
