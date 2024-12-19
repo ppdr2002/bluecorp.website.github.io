@@ -148,6 +148,9 @@ export default function Header() {
             </button>
             <div className="group-hover:flex hidden items-start justify-between absolute my-8 mx-4 left-0 right-0 top-10 bottom-5 z-10 p-6 bg-white text-black h-[570px] border animate-dropdown-appear">
 
+              {/* invisible dropdown */}
+              <div className="bg-transparent absolute -top-10 left-[38%] h-10 w-[11%]"></div>
+
               {/* DROPDOWN 1st SECTION */}
               <div className="flex flex-col justify-between w-[280px] h-full">
                     <div className="flex flex-col gap-3 p-2">
@@ -159,9 +162,9 @@ export default function Header() {
                     </div>
                     {/* Startup Development Section */}
                     <div className="flex flex-col gap-3 font-bold">
-                      <Link href="/#" className="block p-2 text-gray-800 hover:bg-gray-100">Startup Software Development</Link>
-                      <Link href="/#" className="block p-2 text-gray-800 hover:bg-gray-100">SaaS Development</Link>
-                      <Link href="/#" className="block p-2 text-gray-800 hover:bg-gray-100">Supply Chain Management</Link>
+                      <Link href="/services/startup-software-development" className="block p-2 text-gray-800 hover:bg-gray-100">Startup Software Development</Link>
+                      <Link href="/services/saas-development" className="block p-2 text-gray-800 hover:bg-gray-100">SaaS Development</Link>
+                      <Link href="/services/supply-chain-development" className="block p-2 text-gray-800 hover:bg-gray-100">Supply Chain Management</Link>
                     </div>                 
                   </div>
 
@@ -251,6 +254,10 @@ export default function Header() {
           </button>
           <div className="group-hover:flex justify-between gap-10 hidden items-start absolute my-8 mx-2 left-0 right-0 top-10 z-10 p-6 bg-white text-black h-[410px] border animate-dropdown-appear">
 
+            {/* invisible dropdown */}
+            <div className="bg-transparent absolute -top-10 left-[48%] h-10 w-[11%]"></div>
+
+            {/* DROPDOWN CONTENTS */}
             <div className="flex flex-col justify-between w-[300px] h-full">
               <div className="flex flex-col gap-5 p-2">
                 <h1 className="text-3xl flex flex-wrap gap-2 font-semibold">Explore <p className="text-blue-600">Industries</p></h1>

@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '@/components/layout/header';
 import Image from 'next/image';
 
-export default function StrategyPage() {
+export default function StartupSoftwareDevelopmentPage() {
   return (
     <div>
       <div className='text-neutral-900'>
