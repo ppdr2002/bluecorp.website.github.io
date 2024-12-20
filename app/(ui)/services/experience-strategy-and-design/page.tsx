@@ -10,21 +10,21 @@ export default function ExperienceStrategyAndDesignPage() {
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-14 my-20'>
         <div className='page-header'>
-          <span className='page-icon-header bg-purple-400'>Ex</span>
+          <span className='flex justify-center items-center text-3xl md:text-5xl h-16 md:h-32 md:w-32 lg:w-[220px] w-16 rounded-xl mb-4 md:mb-0 bg-indigo-400 text-black'>Ex</span>
           <span className='page-header-title'>Experience Strategy & Design</span>
         </div>
         <div className=''>
           <div className='page-title'>We put people first, always.</div>
-          <div>Trends and technologies change, but the fundamental drivers of effective experience and design remain the same. It&apos;s all about people. As a consulting and technology firm that built these capabilities organically based on client needs, Slalom gives you an integrated, end-to-end approach to creating experiences people love.</div>
+          <div>Trends and technologies change, but the fundamental drivers of effective experience and design remain the same. It&apos;s all about people. As a consulting and technology firm that built these capabilities organically based on client needs, Bluecorp gives you an integrated, end-to-end approach to creating experiences people love.</div>
         </div>
       </div>
       {/* This div for any background color */}
       <div className='bg-neutral-800'>
-        <div className='max-w-[1720px] m-auto px-2 h-[800px]'>
-        <Image src={"/strategy-img-1.webp"} alt='strategy-img-1.webp' width={100} height={100} className='w-full absolute left-0 h-[800px]'/>
+        <div className=''>
+        <Image src={"/experience-strategy-and-design-img-1.jpg"} alt='experience-strategy-and-design-img-1' width={7300} height={4900} className='w-full h-fit'/>
         </div>
       </div>
-      <div className='bg-purple-400'>
+      <div className='bg-indigo-400 text-black'>
         <div className='max-w-[1720px] m-auto md:px-14 px-4 py-12'>
           <div className='section-header'>Our experience strategy and design<i>expertise</i></div>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16'>
@@ -55,8 +55,29 @@ export default function ExperienceStrategyAndDesignPage() {
           </div>
         </div>
       </div>
-      <div>
-        <div className='max-w-[1720px] m-auto px-4'>Section #02</div>
+      {/* Section 2 */}
+      <div className='max-w-[1720px] m-auto lg:px-14 px-4 lg:py-20 py-10'>
+        <div>
+          <h1 className='lg:text-6xl'>Our holistic approach combines the right services to <i>bring your vision to life.</i></h1>
+          <div className='lg:flex gap-6'>
+            <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
+              <Image src={"/strategy-img-2.jpg"} alt='strategy-img-2' height={800} width={750} className='rounded-t-lg'/>
+              <div className='pt-10 px-6'>
+                <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
+                <p className='lg:text-3xl pt-6'>DELMAR: <i>Building a strategy for customer service and growth.</i></p>
+                <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 hover:bg-blue-800 mt-6 px-4'>Read Story</button>
+                </div>
+              </div>
+              <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
+                <Image src={"/strategy-img-3.jpg"} alt='strategy-img-3' height={800} width={750} className='rounded-t-lg'/>
+                <div className='pt-10 px-6'>
+                <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
+                <p className='lg:text-3xl pt-6'>LogRhythm: <i>Streamlining the processes that power cybersecurity.</i></p>
+                <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 hover:bg-blue-800 mt-6 px-4'>Read Story</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

@@ -10,21 +10,21 @@ export default function DigitalTransformationServicePage() {
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-14 my-20'>
         <div className='page-header'>
-          <span className='page-icon-header bg-red-950'>Di</span>
+          <span className='flex justify-center items-center text-3xl md:text-5xl h-16 md:h-32 md:w-32 lg:w-[220px] w-16 rounded-xl mb-4 md:mb-0 bg-amber-400 text-black'>Di</span>
           <span className='page-header-title'>Digital Transformation Service</span>
         </div>
         <div className=''>
           <div className='page-title'>The cloud is an accelerator for your business—and your people.</div>
-          <div>To compete today, every business needs the agility and flexibility of cloud technology. At Slalom, we help you use the cloud to become more data-driven and customer-focused, bring products to market faster, and improve your employee experience.</div>
+          <div>To compete today, every business needs the agility and flexibility of cloud technology. At Bluecorp, we help you use the cloud to become more data-driven and customer-focused, bring products to market faster, and improve your employee experience.</div>
         </div>
       </div>
       {/* This div for any background color */}
       <div className='bg-neutral-800'>
-        <div className='max-w-[1720px] m-auto px-2 h-[800px]'>
-        <Image src={"/service-img-2.jpg"} alt='service-img-2.jpg' width={100} height={100} className='w-full absolute left-0 h-[800px]'/>
+        <div className=''>
+        <Image src={"/digital-transformation-service-img-1.jpg"} alt='digital-transformation-service-img-1' width={4250} height={2800} className='w-full h-fit'/>
         </div>
       </div>
-      <div className='bg-red-950'>
+      <div className='bg-amber-400 text-black'>
         <div className='max-w-[1720px] m-auto md:px-14 px-4 py-16'>
           <div className='section-header'>Our cloud <i>expertise</i></div>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16'>
@@ -44,9 +44,30 @@ export default function DigitalTransformationServicePage() {
           </div>
         </div>
       </div>
-      <div>
-        <div className='max-w-[1720px] m-auto px-4'>Section #02</div>
-      </div>
+     {/* Section 2 */}
+      <div className='max-w-[1720px] m-auto lg:px-14 px-4 lg:py-20 py-10'>
+        <div>
+          <h1 className='lg:text-6xl'>Our holistic approach combines the right services to <i>bring your vision to life.</i></h1>
+          <div className='lg:flex gap-6'>
+            <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
+              <Image src={"/strategy-img-2.jpg"} alt='strategy-img-2' height={800} width={750} className='rounded-t-lg'/>
+              <div className='pt-10 px-6'>
+                <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
+                <p className='lg:text-3xl pt-6'>DELMAR: <i>Building a strategy for customer service and growth.</i></p>
+                <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 hover:bg-blue-800 mt-6 px-4'>Read Story</button>
+              </div>
+            </div>
+            <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
+              <Image src={"/strategy-img-3.jpg"} alt='strategy-img-3' height={800} width={750} className='rounded-t-lg'/>
+                <div className='pt-10 px-6'>
+                <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
+                <p className='lg:text-3xl pt-6'>LogRhythm: <i>Streamlining the processes that power cybersecurity.</i></p>
+                <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 hover:bg-blue-800 mt-6 px-4'>Read Story</button>
+              </div>
+            </div>
+          </div>
         </div>
-    )
+      </div>
+  </div>
+  )
 }

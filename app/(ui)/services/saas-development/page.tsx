@@ -10,12 +10,12 @@ export default function SaasDevelopmentPage() {
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-14 my-20'>
         <div className='page-header'>
-          <span className='page-icon-header bg-purple-300 text-black'>St</span>
-          <span className='page-header-title'>Strategy</span>
+          <span className='page-icon-header bg-purple-300 text-black'>Sa</span>
+          <span className='page-header-title'>SaaS Development</span>
         </div>
         <div className=''>
           <div className='page-title'>Create the vision. Then make it real.</div>
-          <div>At Slalom, we work to deeply understand your organization and develop detailed, executable roadmaps—so you know exactly what to do next, where to grow, and how to transform. Beyond helping you establish your vision, we have the technology and delivery capabilities to make sure you get there.</div>
+          <div>At Bluecorp, we work to deeply understand your organization and develop detailed, executable roadmaps—so you know exactly what to do next, where to grow, and how to transform. Beyond helping you establish your vision, we have the technology and delivery capabilities to make sure you get there.</div>
         </div>
       </div>
 

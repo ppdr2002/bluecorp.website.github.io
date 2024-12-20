@@ -15,14 +15,14 @@ export default function StrategyPage() {
         </div>
         <div className=''>
           <div className='page-title'>Create the vision. Then make it real.</div>
-          <div>At Slalom, we work to deeply understand your organization and develop detailed, executable roadmaps—so you know exactly what to do next, where to grow, and how to transform. Beyond helping you establish your vision, we have the technology and delivery capabilities to make sure you get there.</div>
+          <div>At Bluecorp, we work to deeply understand your organization and develop detailed, executable roadmaps—so you know exactly what to do next, where to grow, and how to transform. Beyond helping you establish your vision, we have the technology and delivery capabilities to make sure you get there.</div>
         </div>
       </div>
 
       {/* This div for any background color */}
       <div className='bg-neutral-800'>
         <div className=''>
-          <Image src={"/strategy-img-1.jpg"} alt='strategy-img-1' width={600} height={400} className='w-[100%]'/>
+          <Image src={"/strategy-img-1.jpg"} alt='strategy-img-1' width={6000} height={4000} className='w-[100%]'/>
         </div>
       </div>
       <div className='bg-purple-300 text-black'>
@@ -35,7 +35,7 @@ export default function StrategyPage() {
             </div>
             <div>
               <div className='section-block-title'>Customer strategy</div>
-              <div>Customer expectations are higher than ever. We help you meet them by creating a customer strategy that’s rooted in data, insights, and a deep understanding of your customers’ needs and behaviors.</div>
+              <div>Customer expectations are higher than ever. We help you meet them by creating a customer strategy that&apos; rooted in data, insights, and a deep understanding of your customers&apos; needs and behaviors.</div>
             </div>
             <div>
               <div className='section-block-title'>Technology strategy</div>
@@ -47,7 +47,7 @@ export default function StrategyPage() {
             </div>
             <div>
               <div className='section-block-title'>Customer strategy</div>
-              <div>Customer expectations are higher than ever. We help you meet them by creating a customer strategy that’s rooted in data, insights, and a deep understanding of your customers’ needs and behaviors.</div>
+              <div>Customer expectations are higher than ever. We help you meet them by creating a customer strategy that&apos; rooted in data, insights, and a deep understanding of your customers&apos; needs and behaviors.</div>
             </div>
             <div>
               <div className='section-block-title'>Technology strategy</div>
@@ -56,7 +56,7 @@ export default function StrategyPage() {
           </div>
         </div>
       </div>
-      {/* Section 3 */}
+      {/* Section 2 */}
       <div className='max-w-[1720px] m-auto lg:px-14 px-4 lg:py-20 py-10'>
         <div>
           <h1 className='lg:text-6xl'>Our holistic approach combines the right services to <i>bring your vision to life.</i></h1>
@@ -65,16 +65,16 @@ export default function StrategyPage() {
               <Image src={"/strategy-img-2.jpg"} alt='strategy-img-2' height={800} width={750} className='rounded-t-lg'/>
               <div className='pt-10 px-6'>
                 <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
-                <p className='lg:text-3xl'>DELMAR: <i>Building a strategy for customer service and growth.</i></p>
-                <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 mt-6 px-4'>Read Story</button>
+                <p className='lg:text-3xl pt-6'>DELMAR: <i>Building a strategy for customer service and growth.</i></p>
+                <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 hover:bg-blue-800 mt-6 px-4'>Read Story</button>
               </div>
             </div>
             <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
               <Image src={"/strategy-img-3.jpg"} alt='strategy-img-3' height={800} width={750} className='rounded-t-lg'/>
               <div className='pt-10 px-6'>
                 <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
-                <p className='lg:text-3xl'>LogRhythm: <i>Streamlining the processes that power cybersecurity.</i></p>
-                <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 mt-6 px-4'>Read Story</button>
+                <p className='lg:text-3xl pt-6'>LogRhythm: <i>Streamlining the processes that power cybersecurity.</i></p>
+                <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 hover:bg-blue-800 mt-6 px-4'>Read Story</button>
               </div>
             </div>
           </div>
