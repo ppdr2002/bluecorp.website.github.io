@@ -49,18 +49,16 @@ export default function ArtificialIntelligencePage() {
           <h1 className='lg:text-6xl'>Our holistic approach combines the right services to <i>bring your vision to life.</i></h1>
           <div className='lg:flex gap-6'>
             <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
-              <Image src={"/strategy-img-2.jpg"} alt='strategy-img-2' height={800} width={750} className='rounded-t-lg'/>
+              <Image src={"/artificial-intelligence-img-2.png"} alt='artificial-intelligence-img-2' height={800} width={750} className='rounded-t-lg'/>
               <div className='pt-10 px-6'>
-                <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
-                <p className='lg:text-3xl pt-6'>DELMAR: <i>Building a strategy for customer service and growth.</i></p>
+                <p className='lg:text-3xl pt-6'>Jaja Finance: <i>Responding faster to customer s with GenAI.</i></p>
                 <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 hover:bg-blue-800 mt-6 px-4'>Read Story</button>
               </div>
             </div>
             <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
-              <Image src={"/strategy-img-3.jpg"} alt='strategy-img-3' height={800} width={750} className='rounded-t-lg'/>
+              <Image src={"/artificial-intelligence-img-3.png"} alt='artificial-intelligence-img-3' height={800} width={750} className='rounded-t-lg'/>
                 <div className='pt-10 px-6'>
-                <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
-                <p className='lg:text-3xl pt-6'>LogRhythm: <i>Streamlining the processes that power cybersecurity.</i></p>
+                <p className='lg:text-3xl pt-6'>Xero: <i>Opening new ways to meet customers where they are</i></p>
                 <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 hover:bg-blue-800 mt-6 px-4'>Read Story</button>
               </div>
             </div>

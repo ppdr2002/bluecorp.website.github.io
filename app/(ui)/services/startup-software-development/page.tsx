@@ -22,7 +22,7 @@ export default function StartupSoftwareDevelopmentPage() {
       {/* This div for any background color */}
       <div className='bg-neutral-800'>
         <div className=''>
-          <Image src={"/strategy-img-1.jpg"} alt='strategy-img-1' width={6000} height={4000} className='w-[100%]'/>
+          <Image src={"/startup-software-development-img-1.jpg"} alt='strategy-img-1' width={6000} height={4000} className='w-[100%]'/>
         </div>
       </div>
       <div className='bg-purple-300 text-black'>
@@ -46,12 +46,12 @@ export default function StartupSoftwareDevelopmentPage() {
               <div>Following a 5-day product design sprint methodology, our experts transform an idea into a functionally designed prototype. The startup software developer at Appinventiv conducts months of designing, prototyping, and testing to validate assumptions with real users and assess the gaps in the process. This design sprint yields invaluable insights to our team on how an end user engages with a product and helps us filter what works for them and what doesn’t.</div>
             </div>
             <div>
-              <div className='section-block-title'>Customer strategy</div>
-              <div>Customer expectations are higher than ever. We help you meet them by creating a customer strategy that&apos; rooted in data, insights, and a deep understanding of your customers&apos; needs and behaviors.</div>
+              <div className='section-block-title'>MVP</div>
+              <div>An MVP is the first version of a digital product. Intact with the core functionalities, it is built to garner valuable feedback from its end users. As a startup app development agency, we strive to develop a delightful, usable, valuable, and feasible product from day one. Backed by real data and not speculations, an MVP for startups helps in decision-making and sets the scope for future iterations.</div>
             </div>
             <div>
-              <div className='section-block-title'>Technology strategy</div>
-              <div>Technology is the backbone of your business. We help you develop a technology strategy that aligns with your business goals and sets you up for success.</div>
+              <div className='section-block-title'>Evolve</div>
+              <div>As a reputed startup web app development agency, we continue improving, iterating, and upgrading your startup product. We provide long-term support for the app that you build with us and offer due consultation whenever needed. Our pre-release testing and post-release support ensure you relentlessly improve your product's quality and retain your end users. As a leading company offering software development for startups, we believe in stabilizing and scaling your product for long-term success.</div>
             </div>
           </div>
         </div>

@@ -46,21 +46,21 @@ export default function DigitalProductBuildingPage() {
       {/* Section 2 */}
       <div className='max-w-[1720px] m-auto lg:px-14 px-4 lg:py-20 py-10'>
         <div>
-          <h1 className='lg:text-6xl'>We bring a tailored mix of services to every project to support <i>your unique needs.</i></h1>
+          <h1 className='lg:text-6xl'>We drive success holistically by bringing a tailored mix of services to <i>each project.</i></h1>
           <div className='lg:flex gap-6'>
             <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
-              <Image src={"/strategy-img-2.jpg"} alt='strategy-img-2' height={800} width={750} className='rounded-t-lg'/>
+              <Image src={"/digital-product-building-img-2.jpg"} alt='digital-product-building-img-2' height={800} width={750} className='rounded-t-lg'/>
                 <div className='pt-10 px-6'>
                   <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
-                  <p className='lg:text-3xl pt-6'>Feeding America: <i>Connecting food banks, ending hunger</i></p>
+                  <p className='lg:text-3xl pt-6'>USC Price: <i>Data drives stornger LA neighbouhoods.</i></p>
                   <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 hover:bg-blue-800 mt-6 px-4'>Read Story</button>
                 </div>
             </div>
             <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
-              <Image src={"/strategy-img-3.jpg"} alt='strategy-img-3' height={800} width={750} className='rounded-t-lg'/>
+              <Image src={"/cloud-img-3.jpg"} alt='cloud-img-3' height={800} width={750} className='rounded-t-lg'/>
                 <div className='pt-10 px-6'>
                   <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
-                  <p className='lg:text-3xl pt-6'>LogRhythm: <i>Streamlining the processes that power cybersecurity.</i></p>
+                  <p className='lg:text-3xl pt-6'>Hologic: <i>Using AI to advance cervical cancer screening for all.</i></p>
                   <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 hover:bg-blue-800 mt-6 px-4'>Read Story</button>
                 </div>
             </div>

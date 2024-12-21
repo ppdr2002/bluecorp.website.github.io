@@ -2,6 +2,7 @@ import React from "react";
 import Header from "@/components/layout/header";
 import Image from "next/image";
 import Link from "next/link";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 export default function SocialPage() {
     return(
@@ -11,9 +12,9 @@ export default function SocialPage() {
             {/* NAVIGATION LINKS */}
             <div className="py-5 lg:px-14 px-4 flex items-center gap-2">
                 <Link href={"/"} className="hover:text-blue-600">Home</Link>
-                <div><Image src={"/right-arrow.svg"} alt="right-arrow" width={18} height={18} className="h-5 w-5"/></div>
+                <div><MdOutlineKeyboardArrowRight size={20}/></div>
                 <Link href={"/industries"} className="hover:text-blue-600">Industries</Link>
-                <div><Image src={"/right-arrow.svg"} alt="right-arrow" width={18} height={18} className="h-5 w-5"/></div>
+                <div><MdOutlineKeyboardArrowRight size={20}/></div>
                 <div>Social</div>
             </div>
 

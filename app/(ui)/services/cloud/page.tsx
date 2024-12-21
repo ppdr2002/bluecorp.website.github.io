@@ -50,7 +50,7 @@ export default function CloudPage() {
           <h1 className='lg:text-6xl'>We bring a tailored mix of services to every project to support <i>your unique needs.</i></h1>
           <div className='lg:flex gap-6'>
             <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
-              <Image src={"/strategy-img-2.jpg"} alt='strategy-img-2' height={800} width={750} className='rounded-t-lg'/>
+              <Image src={"/cloud-img-2.jpg"} alt='cloud-img-2' height={800} width={750} className='rounded-t-lg'/>
               <div className='pt-10 px-6'>
                 <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
                 <p className='lg:text-3xl pt-6'>Feeding America: <i>Connecting food banks, ending hunger</i></p>
@@ -58,10 +58,11 @@ export default function CloudPage() {
               </div>
             </div>
             <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
-              <Image src={"/strategy-img-3.jpg"} alt='strategy-img-3' height={800} width={750} className='rounded-t-lg'/>
+              <Image src={"/cloud-img-3.jpg"} alt='cloud-img-3' height={800} width={750} className='rounded-t-lg'/>
               <div className='pt-10 px-6'>
                 <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
-                <p className='lg:text-3xl pt-6'>LogRhythm: <i>Streamlining the processes that power cybersecurity.</i></p>
+                <p className='lg:text-3xl pt-6'>Hologic: <i>Using AI to advance cervical cancer screening for all.</i></p>
+
                 <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 hover:bg-blue-800 mt-6 px-4'>Read Story</button>
               </div>
             </div>

@@ -1,11 +1,21 @@
 import React from "react";
 import Header from "@/components/layout/header";
 import Image from "next/image";
+import Link from "next/link";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 export default function SmartLivingPage() {
     return(
         <div>
             <Header />
+            {/* NAVIGATION LINKS */}
+            <div className="py-5 lg:px-14 px-4 flex items-center gap-2">
+                <Link href={"/"} className="hover:text-blue-600">Home</Link>
+                <div><MdOutlineKeyboardArrowRight size={20}/></div>
+                <Link href={"/industries"} className="hover:text-blue-600">Industries</Link>
+                <div><MdOutlineKeyboardArrowRight size={20}/></div>
+                <div>Smart Living</div>
+            </div>
             {/* Section 1 */}
             <div className="py-10 lg:px-14 px-4 flex md:flex-nowrap flex-wrap">
                 <div className="md:w-2/4 w-full flex items-center justify-center">
