@@ -312,7 +312,7 @@ export default function Header() {
         </div>
 
           {/* Portfolio Section */}
-          <Link href="/">
+          <Link href="/portfolio">
             <span className="link">Portfolio</span>
           </Link>
 
@@ -328,7 +328,7 @@ export default function Header() {
 
           {/* Contact Section */}
           <Link href="/contact">
-            <span className="border-2 rounded-full px-6 py-2 hover:scale-105">Let’s launch</span>
+            <span className="border-2 rounded-full px-6 py-2 hover:scale-105">Let&apos;s launch</span>
           </Link>
           <Link href="/contact">
             <span className='material-symbols-outlined'>globe_asia</span>
