@@ -39,7 +39,7 @@ export default function IndustriesPage() {
                   </div>
                   <h1 className='text-2xl font-bold'>Retail</h1>
                 </div>
-                <p>Our company is a leading retail company committed to providing exceptional shopping experiences. With a focus on innovation, quality, and customer satisfaction, we offer a diverse range of products and services to meet the evolving needs of our customers.<Link href={"/industries/retail"} className='hover:underline text-blue-700'>Learn More</Link> </p>
+                <p>Our company is a leading retail company committed to providing exceptional shopping experiences. With a focus on innovation, quality, and customer satisfaction, we offer a diverse range of products and services to meet the evolving needs of our customers. <Link href={"/industries/retail"} className='hover:underline text-blue-700'>Learn More</Link> </p>
               </div> 
             </div>
           </div>

@@ -9,7 +9,7 @@ export default function SupplyChainPage() {
         <div>
             <Header />
             {/* NAVIGATION LINKS */}
-            <div className="py-5 lg:px-14 px-4 flex items-center gap-2">
+            <div className="py-5 lg:px-14 px-4 hidden md:flex items-center gap-2">
                 <Link href={"/"} className="hover:text-blue-600">Home</Link>
                 <div><MdOutlineKeyboardArrowRight size={20}/></div>
                 <Link href={"/industries"} className="hover:text-blue-600">Industries</Link>
