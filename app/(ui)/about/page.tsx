@@ -34,7 +34,7 @@ export default function AboutPage() {
                     <div className="flex flex-col md:gap-4 gap-2">
                         <Image src="/about-us-img/satisfaction.svg" alt="Client Satisfaction" width={100} height={100} className="md:w-24 w-12"/>
                         <h1 className="md:text-2xl text-xs md:mt-8 mt-3">Client Satisfaction</h1>
-                        <p className="md:text-sm text-[6px]">We are dedicated to understanding our clients' unique needs and exceeding their expectations</p>
+                        <p className="md:text-sm text-[6px]">We are dedicated to understanding our client&apos;s unique needs and exceeding their expectations</p>
                     </div>
                     <div className="flex flex-col md:gap-4 gap-2">
                         <Image src="/about-us-img/transparency.svg" alt="Transparency" width={100} height={100} className="md:w-24 w-12"/>
