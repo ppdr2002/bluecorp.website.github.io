@@ -14,7 +14,7 @@ export default function PortfolioPage() {
                         <h1 className="flex items-end">Innovate<PiDotOutlineFill  /></h1>                        
                         <h1>Disrupt</h1>
                     </div>
-                    <p className="text-sm">Discover how Bluecorp can help your business succeed. Explore our case studies and see the impact we've made.</p>
+                    <p className="text-sm">Discover how Bluecorp can help your business succeed. Explore our case studies and see the impact we&apos;ve made.</p>
                 </div>
             </div>
 

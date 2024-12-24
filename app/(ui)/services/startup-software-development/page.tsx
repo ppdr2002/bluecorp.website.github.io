@@ -35,7 +35,7 @@ export default function StartupSoftwareDevelopmentPage() {
             </div>
             <div>
               <div className='section-block-title'>Scoping Sessions</div>
-              <div>We articulate your custom startup software development idea into a well-defined Scope of Work and release your product faster in the market. After understanding your goals and vision, our experts infer your value propositions, characterize your product, and define the project's scope.Each one of our software development services for startups is backed with a detailed Statement of Work (SOW), a report where we underline the project scope, and a ballpark estimation of the project budget and 1  timeline.</div>
+              <div>We articulate your custom startup software development idea into a well-defined Scope of Work and release your product faster in the market. After understanding your goals and vision, our experts infer your value propositions, characterize your product, and define the project&apos;s scope.Each one of our software development services for startups is backed with a detailed Statement of Work (SOW), a report where we underline the project scope, and a ballpark estimation of the project budget and 1  timeline.</div>
             </div>
             <div>
               <div className='section-block-title'>Business Analysis</div>
@@ -51,7 +51,7 @@ export default function StartupSoftwareDevelopmentPage() {
             </div>
             <div>
               <div className='section-block-title'>Evolve</div>
-              <div>As a reputed startup web app development agency, we continue improving, iterating, and upgrading your startup product. We provide long-term support for the app that you build with us and offer due consultation whenever needed. Our pre-release testing and post-release support ensure you relentlessly improve your product's quality and retain your end users. As a leading company offering software development for startups, we believe in stabilizing and scaling your product for long-term success.</div>
+              <div>As a reputed startup web app development agency, we continue improving, iterating, and upgrading your startup product. We provide long-term support for the app that you build with us and offer due consultation whenever needed. Our pre-release testing and post-release support ensure you relentlessly improve your product&apos;s quality and retain your end users. As a leading company offering software development for startups, we believe in stabilizing and scaling your product for long-term success.</div>
             </div>
           </div>
         </div>
