@@ -10,7 +10,7 @@ export default function StartupSoftwareDevelopmentPage() {
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-14 my-20'>
         <div className='page-header'>
-          <span className='flex justify-center items-center text-3xl md:text-5xl h-16 md:h-32 md:w-[210px] w-16 rounded-xl mb-4 md:mb-0 bg-purple-300 text-black'>SS</span>
+          <span className='flex justify-center items-center text-3xl md:text-5xl h-16 md:h-32 md:w-[210px] w-16 rounded-xl mb-4 md:mb-0 bg-red-400 text-black'>Ss</span>
           <span className='page-header-title'>Startup Software Development</span>
         </div>
         <div className=''>
@@ -25,7 +25,7 @@ export default function StartupSoftwareDevelopmentPage() {
           <Image src={"/startup-software-development-img-1.jpg"} alt='strategy-img-1' width={6000} height={4000} className='w-[100%]'/>
         </div>
       </div>
-      <div className='bg-purple-300 text-black'>
+      <div className='bg-red-400 text-black'>
         <div className='max-w-[1720px] m-auto md:px-14 px-4 py-16'>
           <div className='section-header'>Our Modus <i>Operandi</i></div>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16'>

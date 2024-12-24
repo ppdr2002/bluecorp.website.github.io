@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className='flex flex-col items-center text-white font-[family-name:var(--font-poppins)]'>
       <div className='w-full bg-blue-600 px-4 md:px-8 lg:px-12 py-4 md:py-8 lg:py-12'>
-        <div className='max-w-[1720px] m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8 px-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8'>
           <div>
             <div className='text-2xl font-medium mb-6'>Bluecorp Software</div>
             <div className='flex space-x-4'>
