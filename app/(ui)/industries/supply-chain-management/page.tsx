@@ -55,7 +55,7 @@ export default function SupplyChainPage() {
                         <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
                             <div className="md:w-[50%] w-full">
                                 <Image src={"/supply-chain-management-settings.svg"} alt="" height={35} width={35}/>
-                                <h1 className="pt-5 text-white lg:text-5xl text-2xl">Legacy software <br className="md:block hidden"/> modernization</h1>                           
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Custom<br/> development and Implementation <br className="md:block hidden"/></h1>                           
                             </div>
                             
                             <div className="md:w-[50%] w-full text-white md:text-lg text-sm pt-5">
@@ -67,10 +67,10 @@ export default function SupplyChainPage() {
                     {/* Part 2 */}
                     <div className="lg:px-14 px-4 ">
                         <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
-                            <div className="w-[50%]">
-                                <Image src={"/supply-chain-management-technology-consulting.svg"} alt="" height={35} width={35}/>                                
+                            <div className="md:w-[50%] w-full">
+                                <Image src={"/supply-chain-management-technology-consulting.svg"} alt="" height={35} width={35}/> 
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Technology <br className="md:block hidden"/> Consulting</h1>                               
                             </div>
-                            <h1 className="pt-5 text-white lg:text-5xl text-2xl">Legacy software <br className="md:block hidden"/> modernization</h1>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg text-sm pt-5">
                                 <p className="pt-6"> you are in two minds about the quality of your current software or simply looking to bring your business to the next level, opt for a <b>technology consulting service</b> from Bluecorp. We will thoroughly analyze the technological solutions you now employ and the tech stack that powers your company in order to find any possible flaws and then suggest strategies to fix them.
                                 </p>
@@ -82,9 +82,9 @@ export default function SupplyChainPage() {
                     <div className="lg:px-14 px-4">
                         <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
                             <div className="w-[50%]">
-                                <Image src={"/supply-chain-management-settings.svg"} alt="" height={35} width={35}/>                                
+                                <Image src={"/supply-chain-management-robot-icon.svg"} alt="" height={40} width={40}/>
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Legacy software <br className="md:block hidden"/> modernization</h1>                                
                             </div>
-                            <h1 className="pt-5 text-white lg:text-5xl text-2xl">Legacy software <br className="md:block hidden"/> modernization</h1>
                             <div className="md:w-[50%] w-[100%] text-white md:text-lg text-sm pt-5">
                                 <p>It appears that your existing software may require an upgrade as it is not meeting modern requirements. Industry experts suggest that any software that is over a decade old, given the pace of innovation, is considered legacy. If you are experiencing issues with software support such as unresolved security breaches or unavailability of developers, your software is likely legacy. Similarly, if developers propose temporary fixes due to concerns about impairing other parts of the software, it may be considered legacy.</p>
                                 <p className="pt-6">As software is a critical source of data for businesses, such shortcomings can have a significant impact on operations. A single link in the chain can affect the entire system, making unstable legacy systems a significant risk factor.</p>
