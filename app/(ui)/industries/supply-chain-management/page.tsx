@@ -14,7 +14,7 @@ export default function SupplyChainPage() {
                 <div><MdOutlineKeyboardArrowRight size={20}/></div>
                 <Link href={"/industries"} className="hover:text-blue-600">Industries</Link>
                 <div><MdOutlineKeyboardArrowRight size={20}/></div>
-                <div className="hover:text-blue-600">Supply Chain Management</div>
+                <div>Supply Chain Management</div>
             </div>
             
             {/* Section 1 */}

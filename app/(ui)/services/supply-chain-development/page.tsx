@@ -2,6 +2,8 @@
 import React from 'react';
 import Header from '@/components/layout/header';
 import Image from 'next/image';
+import Link from 'next/link';
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 export default function SupplyChainDevelopmentPage() {
   return (
@@ -9,10 +11,20 @@ export default function SupplyChainDevelopmentPage() {
       <div className='text-neutral-900'>
         <Header />
       </div>
+
+      {/* NAVIGATION LINKS */}
+      <div className="py-5 lg:px-14 px-4 hidden md:flex items-center gap-2">
+        <Link href={"/"} className="hover:text-blue-600">Home</Link>
+        <div><MdOutlineKeyboardArrowRight size={20}/></div>
+        <Link href={"/services"} className="hover:text-blue-600">Services</Link>
+        <div><MdOutlineKeyboardArrowRight size={20}/></div>
+        <div>Supply Chain Devolopment</div>
+      </div>
+
       <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-14 my-20'>
         <div className='page-header'>
           <span className='page-icon-header bg-yellow-300 text-black'>SC</span>
-          <span className='page-header-title'>Supply Chain Management</span>
+          <span className='page-header-title'>Supply Chain Devolopment</span>
         </div>
         <div className=''>
           <div className='page-title'>Create the vision. Then make it real.</div>
