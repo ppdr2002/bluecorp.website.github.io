@@ -22,8 +22,8 @@ export default function ExperienceStrategyAndDesignPage() {
       
       <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-14 my-20'>
         <div className='page-header'>
-          <span className='flex justify-center items-center text-3xl md:text-5xl h-16 md:h-32 md:w-32 lg:w-[220px] w-16 rounded-xl mb-4 md:mb-0 bg-pink-400 text-black'>Ex</span>
-          <span className='page-header-title'>Experience Strategy & Design</span>
+          <span className='flex justify-center items-center text-3xl md:text-5xl h-16 md:h-32 md:w-32 lg:w-[120px] w-16 rounded-xl mb-4 md:mb-0 bg-pink-400 text-black'>Ex</span>
+          <span className='text-5xl'>Experience<br className='md:block hidden'/> Strategy & Design</span>
         </div>
         <div className=''>
           <div className='page-title'>We put people first, always.</div>

@@ -12,7 +12,7 @@ export default function AboutPage() {
             <Header />
 
             {/* SECTION 1 */}
-            <div className="md:px-14 px-4 text-center mt-10 flex flex-col justify-center items-center gap-6 h-svh">
+            <div className="md:px-14 px-4 text-center mt-10 flex flex-col justify-center items-center gap-6 lg:h-svh h-[40vh]">
                 <h1 className="md:text-5xl text-2xl">About Us</h1>
                 <p className="lg:px-80  px-4 text-wrap">At Bluecorp Softwares Pvt. Ltd. , we are passionate about crafting innovative and user-centric digital experiences. We are a leading service provider specializing in web application development and Android app development, dedicated to delivering high-quality, robust, and scalable solutions that meet the unique needs of our clients.</p>
             </div>
@@ -51,15 +51,15 @@ export default function AboutPage() {
             </div>
 
             {/* SECTION 3 */}
-            <div className="md:px-14 px-4 flex flex-col gap-6">
+            <div className="lg:px-14 px-4 flex flex-col gap-6">
                 <h1 className="md:text-5xl text-2xl">Why Choose Bluecorp?</h1>
-                <p className="text-wrap text-base flex gap-2 items-center"><PiDotDuotone /><b className="text-lg">Experienced Team :</b> Our team comprises highly skilled and experienced developers, designers, and project managers.</p>
-                <p className="text-wrap text-base flex gap-2 items-center"><PiDotDuotone /><b className="text-lg">Agile Methodology :</b> We follow agile development principles to ensure flexibility, adaptability, and client involvement.</p>
-                <p className="text-wrap text-base flex gap-2 items-center"><PiDotDuotone /><b className="text-lg">Cutting-edge Technology :</b> We utilize the latest technologies and tools to deliver cutting-edge solutions.</p>
-                <p className="text-wrap text-base flex gap-2 items-center"><PiDotDuotone /><b className="text-lg">Competitive Pricing :</b> We offer competitive pricing without compromising on quality.</p>
-                <p className="text-wrap text-base flex gap-2 items-center"><PiDotDuotone /><b className="text-lg">Customer-centric Approach :</b> We prioritize client satisfaction and build long-term relationships.</p>
+                <div className="text-wrap flex lg:text-lg md:text-base text-sm"><p>&#9679; <b className="text-nowrap">Experienced Team :</b> Our team comprises highly skilled and experienced developers, designers, and project managers.</p></div>
+                <div className="text-wrap flex lg:text-lg md:text-base text-sm"><p>&#9679; <b className="text-nowrap">Agile Methodology :</b> We follow agile development principles to ensure flexibility, adaptability, and client involvement.</p></div>
+                <div className="text-wrap flex lg:text-lg md:text-base text-sm"><p>&#9679; <b className="text-nowrap">Cutting-edge Technology :</b> We utilize the latest technologies and tools to deliver cutting-edge solutions.</p></div>
+                <div className="text-wrap flex lg:text-lg md:text-base text-sm"><p>&#9679; <b className="text-nowrap">Competitive Pricing :</b> We offer competitive pricing without compromising on quality.</p></div>
+                <div className="text-wrap flex lg:text-lg md:text-base text-sm"><p>&#9679; <b className="text-nowrap">Customer-centric Approach :</b> We prioritize client satisfaction and build long-term relationships.</p></div>
             </div>
-
+            
             {/* SECTION 4 */}
             <div className="md:px-14 px-4 md:my-20 my-10 flex w-full justify-center items-center">
                 <div className="border-2 p-8 rounded-lg border-blue-800 flex flex-col gap-6 items-center justify-center w-fit">

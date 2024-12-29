@@ -26,8 +26,8 @@ export default function DigitalTransformationServicePage() {
           <span className='page-header-title'>Digital Transformation Service</span>
         </div>
         <div className=''>
-          <div className='page-title'>The cloud is an accelerator for your business—and your people.</div>
-          <div>To compete today, every business needs the agility and flexibility of cloud technology. At Bluecorp, we help you use the cloud to become more data-driven and customer-focused, bring products to market faster, and improve your employee experience.</div>
+          <div className='page-title'>Digital Transformation Services Company that Helps Businesses Champion Change</div>
+          <div>Our IT outsourcing services for digital business transformation services drive impactful benefits by optimizing processes, automating systems, and propelling innovation. As a renowned digital transformation services company, we utilize a forward-thinking approach that not only addresses your immediate digital concerns but also guides you in making well-informed, future-proof decisions for your business.</div>
         </div>
       </div>
       {/* This div for any background color */}
@@ -38,19 +38,19 @@ export default function DigitalTransformationServicePage() {
       </div>
       <div className='bg-amber-400 text-black'>
         <div className='max-w-[1720px] m-auto md:px-14 px-4 py-16'>
-          <div className='section-header'>Our cloud <i>expertise</i></div>
+          <div className='section-header'>Our Digital Transformation Service <i>expertise</i></div>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16'>
             <div>
-              <div className='section-block-title'>Migration & modernization</div>
-              <div>To achieve transformative outcomes, you need a future-forward approach to cloud migration & modernization.That means not only shifting workloads to the cloud and updating your applications, but also upskilling and empowering your team members to thrive in the new environment.</div>
+              <div className='section-block-title'>End-to-End Digital Business Transformation Services</div>
+              <div>Our proficiency in holistic digital transformation enables enterprises to adopt cutting-edge technologies and effortlessly adjust to the dynamic digital environment.Being a dedicated product development company, we help you through every stage of your transformation journey with an emphasis on an all-encompassing strategy, guaranteeing long-term success and growth.</div>
             </div>
             <div>
-              <div className='section-block-title'>Optimization</div>
-              <div>By 2026, Gartner predicts that public cloud spending will exceed 45% of all enterprise IT spending. So how can you ensure that you&apos;re spending that money wisely? Slalom&apos;s experts help you eliminate redundancies, make the most of automation, and maximize the return on your cloud investment.</div>
+              <div className='section-block-title'>New Revenue Streams</div>
+              <div>As one of the finest digital transformation companies, we build scalable solutions to spot and seize new business opportunities. With our robust custom digital business transformation solutions, we help you diversify revenue streams, maintain competitiveness, and prosper in the ever-changing digital landscape. Our strategy is centered on innovative approaches to optimize your profitability and development potential, guaranteeing sustained success.</div>
             </div>
             <div>
-              <div className='section-block-title'>Infrastructure</div>
-              <div>Infrastructure is the foundation of every modern organization. Today, key infrastructure priorities include privacy, governance, security, and resiliency. We help you craft a resilient, secure infrastructure that positions your organization to embrace the ever-changing possibilities of building in the cloud.</div>
+              <div className='section-block-title'>Market Responsiveness</div>
+              <div>With our digital transformation strategy, your company can remain up-to-date with the ever-changing market conditions. As a leading digital transformation solutions company, we give you the flexibility and resources you need to adapt to new trends and make changes in your business. Staying current and embracing innovation not only positions your company to seize emerging opportunities but also sustains a competitive edge.</div>
             </div>
             
           </div>

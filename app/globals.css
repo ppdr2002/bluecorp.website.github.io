@@ -43,7 +43,7 @@ body {
 }
 
 .page-header {
-  @apply md:flex items-start gap-x-8;
+  @apply lg:flex items-start gap-x-8;
 }
 
 .page-icon-header {

@@ -1,98 +1,196 @@
-    
-import React from 'react';
-import Header from '@/components/layout/header';
-import Image from 'next/image';
-import Link from 'next/link';
-import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import React from "react";
+import Header from "@/components/layout/header";
+import Image from "next/image";
+import Link from "next/link";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-export default function SupplyChainDevelopmentPage() {
-  return (
-    <div>
-      <div className='text-neutral-900'>
-        <Header />
-      </div>
-
-      {/* NAVIGATION LINKS */}
-      <div className="py-5 lg:px-14 px-4 hidden md:flex items-center gap-2">
-        <Link href={"/"} className="hover:text-blue-600">Home</Link>
-        <div><MdOutlineKeyboardArrowRight size={20}/></div>
-        <Link href={"/services"} className="hover:text-blue-600">Services</Link>
-        <div><MdOutlineKeyboardArrowRight size={20}/></div>
-        <div>Supply Chain Devolopment</div>
-      </div>
-
-      <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1720px] m-auto gap-x-8 gap-y-4 px-4 md:px-14 my-20'>
-        <div className='page-header'>
-          <span className='page-icon-header bg-yellow-300 text-black'>SC</span>
-          <span className='page-header-title'>Supply Chain Devolopment</span>
-        </div>
-        <div className=''>
-          <div className='page-title'>Create the vision. Then make it real.</div>
-          <div>At Slalom, we work to deeply understand your organization and develop detailed, executable roadmaps—so you know exactly what to do next, where to grow, and how to transform. Beyond helping you establish your vision, we have the technology and delivery capabilities to make sure you get there.</div>
-        </div>
-      </div>
-
-      {/* This div for any background color */}
-      <div className='bg-neutral-800'>
-        <div className=''>
-          <Image src={"/strategy-img-1.jpg"} alt='strategy-img-1' width={600} height={400} className='w-[100%]'/>
-        </div>
-      </div>
-      <div className='bg-yellow-300 text-black'>
-        <div className='max-w-[1720px] m-auto md:px-14 px-4 py-16'>
-          <div className='section-header'>Our strategy expertise</div>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16'>
-            <div>
-              <div className='section-block-title'>Business strategy</div>
-              <div>In our era of tech transformation, smart business strategy can mean continuing to do what you already do better, making fundamental changes, or reinventing your company completely. As always, Slalom takes a fiercely human approach with people at its core.</div>
-            </div>
-            <div>
-              <div className='section-block-title'>Customer strategy</div>
-              <div>Customer expectations are higher than ever. We help you meet them by creating a customer strategy that’s rooted in data, insights, and a deep understanding of your customers’ needs and behaviors.</div>
-            </div>
-            <div>
-              <div className='section-block-title'>Technology strategy</div>
-              <div>Technology is the backbone of your business. We help you develop a technology strategy that aligns with your business goals and sets you up for success.</div>
-            </div>
-            <div>
-              <div className='section-block-title'>Business strategy</div>
-              <div>In our era of tech transformation, smart business strategy can mean continuing to do what you already do better, making fundamental changes, or reinventing your company completely. As always, Slalom takes a fiercely human approach with people at its core.</div>
-            </div>
-            <div>
-              <div className='section-block-title'>Customer strategy</div>
-              <div>Customer expectations are higher than ever. We help you meet them by creating a customer strategy that’s rooted in data, insights, and a deep understanding of your customers’ needs and behaviors.</div>
-            </div>
-            <div>
-              <div className='section-block-title'>Technology strategy</div>
-              <div>Technology is the backbone of your business. We help you develop a technology strategy that aligns with your business goals and sets you up for success.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Section 3 */}
-      <div className='max-w-[1720px] m-auto lg:px-14 px-4 lg:py-20 py-10'>
+export default function SupplyChainPage() {
+    return(
         <div>
-          <h1 className='lg:text-6xl'>Our holistic approach combines the right services to <i>bring your vision to life.</i></h1>
-          <div className='lg:flex gap-6'>
-            <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
-              <Image src={"/strategy-img-2.jpg"} alt='strategy-img-2' height={800} width={750} className='rounded-t-lg'/>
-              <div className='pt-10 px-6'>
-                <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
-                <p className='lg:text-3xl'>DELMAR: <i>Building a strategy for customer service and growth.</i></p>
-                <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 mt-6 px-4'>Read Story</button>
-              </div>
+            <Header />
+            {/* NAVIGATION LINKS */}
+            <div className="py-5 lg:px-14 px-4 hidden md:flex items-center gap-2">
+                <Link href={"/"} className="hover:text-blue-600">Home</Link>
+                <div><MdOutlineKeyboardArrowRight size={20}/></div>
+                <Link href={"/industries"} className="hover:text-blue-600">Industries</Link>
+                <div><MdOutlineKeyboardArrowRight size={20}/></div>
+                <div>Supply Chain Management</div>
             </div>
-            <div className='bg-slate-900 h-[80%] lg:w-[50%] w-[100%] border-spacing-2 rounded-lg mt-20 pb-20'>
-              <Image src={"/strategy-img-3.jpg"} alt='strategy-img-3' height={800} width={750} className='rounded-t-lg'/>
-              <div className='pt-10 px-6'>
-                <h6 className='text-lg text-white'>CUSTOMER STORY</h6>
-                <p className='lg:text-3xl'>LogRhythm: <i>Streamlining the processes that power cybersecurity.</i></p>
-                <button className='h-[40px] w-[150px] border-spacing-2 rounded-2xl bg-blue-600 mt-6 px-4'>Read Story</button>
-              </div>
+            
+            {/* Section 1 */}
+            <div className="py-10 lg:px-14 px-4 flex flex-col items-center justify-center md:h-svh h-full">
+                <h1 className="lg:text-7xl text-2xl text-center md:pt-20 pt-6 text-wrap">Supply Chain Management</h1>
+                <p className="text-center md:text-xl text-sm md:py-10 py-6 text-wrap">Stand up to always emerging market challenges with supply chain software development for more resilient, transparent, and<br className="md:block hidden"/> easier-to-track business operations. We develop custom solutions with attention to every link in the chain<br className="md:block hidden"/> to address your business needs.</p>
             </div>
-          </div>
+            <Image src={"/supply-chain-management-header-img.png"} alt="supply-chain-management-img-1" height={1000} width={2000} className="w-[100%]"/>
+
+            {/* Section 2 */}
+            <div className="lg:px-14 px-4 bg-blue-800 py-14 text-white md:text-lg text-sm">
+                <h1 className="lg:text-4xl text-2xl md:w-[50%] font-bold">Supply Chain industry<br></br> challenges</h1>
+                <div className="md:flex justify-evenly gap-14">
+                    <div className="md:w-[50%] w-[100%]">
+                        <p className="py-10">U.S. retail operations have a supply chain accuracy of only 63%. And only 6% of businesses report the total visibility of their supply chain.</p>
+                        <p className="">Meanwhile, the market expects impeccable operation flow and fast response from businesses, which is impossible if loads of data are handled manually. All this under the conditions of unpredictable consumer spending and complex logistics processes 
+                        barely recovered from COVID-19.</p>
+                    </div>
+                    <div className="md:w-[50%] w-[100%]">
+                    <p className="py-10">Supply chain software developed by professionals can help address these and many other concerns. Build your own SCM software to:</p>
+                    <ul className="">
+                        <li>&#x2022; Minimize transportation expenses</li>
+                        <li>&#x2022; Keep up with the needs of the market</li>
+                        <li>&#x2022; Source dependable, constant transport capacity</li>
+                        <li>&#x2022; Meet the most recent technological demands</li>
+                        <li>&#x2022; Pick up and deliver orders on time</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+
+            {/* Section 3 */}
+            <div className="lg:py-20 py-10">
+                <div className="flex flex-col gap-10">
+                    <h1 className=" lg:text-4xl text-2xl md:w-[50%] w-[100%] font-bold lg:px-14 px-4">What we do as a supply chain software company</h1>
+                    {/* Part 1 */}
+                    <div className="lg:px-14 px-4">
+                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
+                            <div className="md:w-[50%] w-full">
+                                <Image src={"/supply-chain-management-settings.svg"} alt="" height={35} width={35}/>
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Custom<br/> development and Implementation <br className="md:block hidden"/></h1>                           
+                            </div>
+                            
+                            <div className="md:w-[50%] w-full text-white md:text-lg text-sm pt-5">
+                                <p className="pt-6">Tell us what kind of software you need, and in collaboration with you, we design and develop a programming solution to address your request. It can be <b>supply chain management software (SCMS), transportation management software (TMS), warehouse management software</b>, and more.</p>
+                                <p className="pt-6">We acknowledge that an SCM software implementation can be a challenge. The software has to cover every branch of the company and coordinate them seamlessly with each other, which takes additional organizational realignment and engineering effort. Systems by Anadea are built with regard to this. We find the smartest architecture solutions to assure the durability and maintainability of your software.</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Part 2 */}
+                    <div className="lg:px-14 px-4 ">
+                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
+                            <div className="md:w-[50%] w-full">
+                                <Image src={"/supply-chain-management-technology-consulting.svg"} alt="" height={35} width={35}/> 
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Technology <br className="md:block hidden"/> Consulting</h1>                               
+                            </div>
+                            <div className="md:w-[50%] w-[100%] text-white md:text-lg text-sm pt-5">
+                                <p className="pt-6"> you are in two minds about the quality of your current software or simply looking to bring your business to the next level, opt for a <b>technology consulting service</b> from Bluecorp. We will thoroughly analyze the technological solutions you now employ and the tech stack that powers your company in order to find any possible flaws and then suggest strategies to fix them.
+                                </p>
+                                <p className="pt-10">In case you would like to benefit from custom SCM development upon consulting, such as the addition of new features or certain technological changes, we will offer a project proposal for these services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Part 3 */}
+                    <div className="lg:px-14 px-4">
+                        <div className="md:flex gap-4 bg-blue-800 rounded-xl md:py-20 py-10 md:px-16 px-4">
+                            <div className="w-[50%]">
+                                <Image src={"/supply-chain-management-robot-icon.svg"} alt="" height={40} width={40}/>
+                                <h1 className="pt-10 text-white lg:text-5xl text-2xl">Legacy software <br className="md:block hidden"/> modernization</h1>                                
+                            </div>
+                            <div className="md:w-[50%] w-[100%] text-white md:text-lg text-sm pt-5">
+                                <p>It appears that your existing software may require an upgrade as it is not meeting modern requirements. Industry experts suggest that any software that is over a decade old, given the pace of innovation, is considered legacy. If you are experiencing issues with software support such as unresolved security breaches or unavailability of developers, your software is likely legacy. Similarly, if developers propose temporary fixes due to concerns about impairing other parts of the software, it may be considered legacy.</p>
+                                <p className="pt-6">As software is a critical source of data for businesses, such shortcomings can have a significant impact on operations. A single link in the chain can affect the entire system, making unstable legacy systems a significant risk factor.</p>
+                                <p className="pt-6">If you&apos;re facing any of these issues, feel free to contact us, and we&apos;ll explore ways to improve your software.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            {/* Section 4 */}
+            <div>
+                <Image src={"/supply-chain-management-img-2.svg"} alt="supply-chain-management-img-2" height={100} width={100} className="w-[100%] lg:px-14 px-4"/>
+            </div>
+
+            {/* Section 5 */}
+            <div className="lg:px-14 px-4 py-20">
+                <div className="md:w-[50%]">
+                    <h1 className="lg:text-4xl text-2xl">Custom Supply Chain <br /> solutions we deliver </h1>
+                    <p className="py-10 lg:text-lg text-sm">Whether you need an all-in-one system to cover every aspect of <br className="md:block hidden"/> supply chain management or a tool to perform a specific task, <br className="md:block hidden"/> there is a solution for you.</p>
+                </div>
+                <div className="md:grid lg:grid-cols-3 md:grid-cols-2 flex flex-col gap-5">
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
+                        <Image src={"/demand-management-software.png"} alt="demand-management-software-img" height={2000} width={800} className="h-[50%] md:w-[100%] rounded-t-xl w-full"/>
+                        <div className="p-8">
+                            <h1 className="text-2xl">Demand Management software</h1>
+                            <ul className="py-4 md:text-lg text-sm">
+                                <li>&#x2022; Demand forecasting</li>
+                                <li>&#x2022; Client analytics</li>
+                                <li>&#x2022; Stock optimization</li>
+                                <li>&#x2022; Planning for sales and operations</li>
+                                <li>&#x2022; Tracking of prices and promotions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
+                        <Image src={"/warehouse-management-software.jpg"} alt="supply-chain-management-img-3" height={350} width={700} className="h-[50%] w-[100%] rounded-t-xl"/>
+                        <div className="px-8 py-8">
+                            <h1 className="text-2xl">Warehouse Management software</h1>
+                            <ul className="py-4 md:text-lg text-sm">
+                                <li>&#x2022; Warehouse operations automation</li>
+                                <li>&#x2022; Inventory tracking across warehouses</li>
+                                <li>&#x2022; Tracking using barcodes, serial Nos or RFIDs</li>
+                                <li>&#x2022; Asset administration</li>
+                                <li>&#x2022; Forecasting of future inventories and prices</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
+                        <Image src={"/logistic-management.jpg"} alt="supply-chain-management-img-3" height={700} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
+                        <div className="px-8 py-8">
+                            <h1 className="text-2xl">Logistics Management Tools</h1>
+                            <ul className="py-4 md:text-lg text-sm">
+                                <li>&#x2022; Fleet management</li>
+                                <li>&#x2022; Packaging management</li>
+                                <li>&#x2022; Coordinating deliveries across logistic channels</li>
+                                <li>&#x2022; Route improvement</li>
+                                <li>&#x2022; Rate evaluation</li>
+                                <li>&#x2022; Labor estimation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
+                        <Image src={"/procurement-management-tools.jpg"} alt="supply-chain-management-img-3" height={550} width={350} className="h-[50%] w-[100%] rounded-t-xl"/>
+                        <div className="px-8 py-8">
+                            <h1 className="text-2xl">Procurement Management Tools</h1>
+                            <ul className="py-4 md:text-lg text-sm">
+                                <li>&#x2022; Purchasing raw materials
+                                </li>
+                                <li>&#x2022; Lot sizing and replenishment planning</li>
+                                <li>&#x2022; Coordinating deliveries across logistic channels</li>
+                                <li>&#x2022;Supply-side market analysis </li>
+                                <li>&#x2022; Cost evaluation</li>
+                                <li>&#x2022; Spending tracking</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
+                        <Image src={"/supply-chain-planning.jpg"} alt="supply-chain-management-img-3" height={700} width={450} className="h-[50%] w-[100%] rounded-t-xl"/>
+                        <div className="px-8 py-8">
+                            <h1 className="text-2xl">Supply Chain Planning Tools</h1>
+                            <ul className="py-4 md:text-lg text-sm">
+                                <li>&#x2022; Creating custom alerts</li>
+                                <li>&#x2022; Scenario-based forecasting</li>
+                                <li>&#x2022; Resource optimization</li>
+                                <li>&#x2022; Supply forecasting</li>
+                                <li>&#x2022; Optimization of labor and materials</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="h-[650px] lg:w-[450px] w-full border-spacing-2 rounded-xl bg-blue-800 text-white">
+                        <Image src={"/work-management-system.jpg"} alt="supply-chain-management-img-3" height={700} width={400} className="h-[50%] w-[100%] rounded-t-xl"/>
+                        <div className="px-8 py-8">
+                            <h1 className="text-2xl">Order Management System</h1>
+                            <ul className="py-4 md:text-lg text-sm">
+                                <li>&#x2022; Improved order fulfillment</li>
+                                <li>&#x2022; Return and refund management</li>
+                                <li>&#x2022; Coordinating deliveries across logistic channels</li>
+                                <li>&#x2022; Creating purchase orders</li>
+                                <li>&#x2022; Delivery scheduling</li>
+                                <li>&#x2022; Creating product prices and configurations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    )
 }

@@ -111,7 +111,7 @@ export default function Header() {
     {
       icon: "groups",
       label: "Who we are",
-      href: "/who-we-are",
+      href: "/about",
     },
     {
       icon: "school",

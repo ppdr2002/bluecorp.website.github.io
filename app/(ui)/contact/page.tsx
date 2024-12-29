@@ -15,8 +15,9 @@ export default function contactpage(){
                 </div>
                 <p className="mb-4">We&apos;d love to hear from you! </p>
                     <p>Fill out the form and let&apos;s connect to bring your ideas to life!</p>
+                    <p>Get all your questions answered by our business development team.</p>
             </div>
-            <div className="md:w-[50%] w-full">
+            <div className="lg:w-[50%] w-full">
                 <form >
                     <div className="mb-5">
                         <label htmlFor="firstName" className="text-sm font-medium flex items-center gap-1">Full Name <p className="text-gray-500">(required)</p></label>
